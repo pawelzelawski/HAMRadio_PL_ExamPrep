@@ -3,34 +3,33 @@
     <h2 class="text-2xl font-bold mb-6">Baza pytań egzaminacyjnych</h2>
     <div v-if="loading" class="text-center py-8">Ładowanie pytań...</div>
     <div v-else>
-      <!-- Category selector label -->
-      <div class="mb-2">
-        <span class="text-base text-gray-700 font-medium">Wybierz kategorię pytań:</span>
-      </div>
-      <!-- Category selector -->
-      <div class="mb-6">
-        <!-- Tabs for desktop, styled as text links for consistency with main nav -->
-        <div class="hidden sm:flex gap-4 flex-wrap border-b border-blue-200 pb-1">
+      <!-- Navigation Tabs: Tabs for desktop, dropdown for mobile -->
+      <div class="mb-8">
+        <!-- Tabs for desktop -->
+        <div class="hidden sm:flex flex-wrap justify-center gap-2">
           <button
             v-for="cat in categories"
             :key="cat"
             @click="selectedCategory = cat"
+            class="px-4 py-2 rounded-t-lg font-semibold focus:outline-none transition border-b-2"
             :class="[
-              'bg-transparent px-0 py-1 text-blue-800 hover:underline focus:outline-none transition',
-              selectedCategory === cat ? 'font-bold border-b-2 border-blue-800' : 'font-normal'
+              selectedCategory === cat
+                ? 'bg-blue-700 text-white border-blue-700 shadow'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 border-transparent hover:bg-blue-100 dark:hover:bg-gray-700',
+              'min-w-[120px]'
             ]"
-            style="min-width: 0"
           >
             {{ cat }}
           </button>
         </div>
         <!-- Dropdown for mobile -->
-        <div class="sm:hidden mb-4">
+        <div class="sm:hidden">
           <select v-model="selectedCategory" class="w-full p-2 rounded border border-blue-300">
             <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
           </select>
         </div>
       </div>
+
       <!-- Questions for selected category -->
       <div v-if="selectedCategory">
         <div class="flex items-center justify-end gap-4 mb-2 mt-6">

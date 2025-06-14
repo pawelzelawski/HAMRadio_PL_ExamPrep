@@ -1,106 +1,120 @@
 <template>
-  <div>
-    <h2 class="text-2xl font-bold mb-6">Materiały do nauki</h2>
-    <div>
-      <!-- Category selector label (copied for UI consistency) -->
-      <div class="mb-2">
-        <span class="text-base text-gray-700 font-medium">Wybierz sekcję:</span>
+  <div class="max-w-4xl mx-auto py-8 px-2">
+    <h2 class="text-3xl font-bold mb-8 text-center tracking-tight">Nauka</h2>
+    <!-- Navigation Tabs: Tabs for desktop, dropdown for mobile -->
+    <div class="mb-8">
+      <!-- Tabs for desktop -->
+      <div class="hidden sm:flex flex-wrap justify-center gap-2">
+        <button
+          v-for="cat in categories"
+          :key="cat"
+          @click="selectedCategory = cat"
+          class="px-4 py-2 rounded-t-lg font-semibold focus:outline-none transition border-b-2"
+          :class="[
+            selectedCategory === cat
+              ? 'bg-blue-700 text-white border-blue-700 shadow'
+              : 'bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-gray-200 border-transparent hover:bg-blue-100 dark:hover:bg-gray-700',
+            'min-w-[120px]'
+          ]"
+        >
+          {{ cat }}
+        </button>
       </div>
-      <!-- Category selector (tabs for desktop, dropdown for mobile) -->
-      <div class="mb-6">
-        <div class="hidden sm:flex gap-4 flex-wrap border-b border-blue-200 pb-1">
-          <button v-for="cat in categories" :key="cat" @click="selectedCategory = cat"
-            :class="['bg-transparent px-0 py-1 text-blue-800 hover:underline focus:outline-none transition', selectedCategory === cat ? 'font-bold border-b-2 border-blue-800' : 'font-normal']"
-            style="min-width: 0">
-            {{ cat }}
-          </button>
-        </div>
-        <div class="sm:hidden mb-4">
-          <select v-model="selectedCategory" class="w-full p-2 rounded border border-blue-300">
-            <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
-          </select>
-        </div>
-      </div>
-      <!-- Section content -->
-      <div v-if="selectedCategory === 'KOD Q'">
-        <h3 class="text-xl font-semibold mb-2 mt-6">KOD Q</h3>
-        <div class="overflow-x-auto">
-          <table class="min-w-full border text-sm">
-            <thead>
-              <tr class="bg-blue-800 text-white">
-                <th class="p-2 border">KOD</th>
-                <th class="p-2 border">OPIS</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="row in kodQ" :key="row.kod">
-                <td class="p-2 border font-mono">{{ row.kod }}</td>
-                <td class="p-2 border">{{ row.opis }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div v-else-if="selectedCategory === 'LITEROWANIE'">
-        <h3 class="text-xl font-semibold mb-2 mt-6">LITEROWANIE</h3>
-        <div class="overflow-x-auto">
-          <table class="min-w-full border text-sm">
-            <thead>
-              <tr class="bg-blue-800 text-white">
-                <th class="p-2 border">Litera</th>
-                <th class="p-2 border">międzynarodowy</th>
-                <th class="p-2 border">amerykański</th>
-                <th class="p-2 border">polski</th>
-                <th class="p-2 border">rosyjski</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="row in literowanie" :key="row.litera">
-                <td class="p-2 border font-mono">{{ row.litera }}</td>
-                <td class="p-2 border">{{ row.miedzynarodowy }}</td>
-                <td class="p-2 border">{{ row.amerykanski }}</td>
-                <td class="p-2 border">{{ row.polski }}</td>
-                <td class="p-2 border">{{ row.rosyjski }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
-      </div>
-      <div v-else-if="selectedCategory === 'RAPORTY RS(T) ORAZ RSQ'">
-        <h3 class="text-xl font-semibold mb-2 mt-6">RAPORTY RS(T) ORAZ RSQ</h3>
-        <div class="overflow-x-auto mb-4">
-          <table class="min-w-full border text-sm mb-2">
-            <thead>
-              <tr class="bg-blue-800 text-white">
-                <th class="p-2 border">RAPORT RS(T) SSB-CW</th>
-                <th class="p-2 border">OPIS</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="row in raportyRST" :key="row.kod">
-                <td class="p-2 border font-mono">{{ row.kod }}</td>
-                <td class="p-2 border">{{ row.opis }}</td>
-              </tr>
-            </tbody>
-          </table>
-          <div class="h-2"></div>
-          <table class="min-w-full border text-sm mb-2">
-            <thead>
-              <tr class="bg-blue-800 text-white">
-                <th class="p-2 border">RAPORT RSQ DIGI</th>
-                <th class="p-2 border">OPIS</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr v-for="row in raportyRSQ" :key="row.kod">
-                <td class="p-2 border font-mono">{{ row.kod }}</td>
-                <td class="p-2 border">{{ row.opis }}</td>
-              </tr>
-            </tbody>
-          </table>
-        </div>
+      <!-- Dropdown for mobile -->
+      <div class="sm:hidden">
+        <select v-model="selectedCategory" class="w-full p-2 rounded border border-blue-300">
+          <option v-for="cat in categories" :key="cat" :value="cat">{{ cat }}</option>
+        </select>
       </div>
     </div>
+    <!-- Section 1: Kody Q -->
+    <section v-if="selectedCategory === 'KOD Q'" class="mb-12">
+      <h3 class="text-xl font-bold mb-4 text-blue-900 dark:text-blue-200">Kody Q</h3>
+      <div class="overflow-x-auto rounded-lg shadow border border-gray-200 dark:border-gray-700">
+        <table class="min-w-full text-base text-gray-900 dark:text-gray-100">
+          <thead class="bg-blue-100 dark:bg-gray-800">
+            <tr>
+              <th class="px-6 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Kod</th>
+              <th class="px-6 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Opis</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(row, idx) in kodQ" :key="row.kod" :class="idx % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800'">
+              <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-700 whitespace-nowrap font-mono">{{ row.kod }}</td>
+              <td class="px-6 py-3 border-b border-gray-200 dark:border-gray-700 whitespace-normal break-words text-left align-top">{{ row.opis }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- Section 2: Literowanie -->
+    <section v-if="selectedCategory === 'LITEROWANIE'" class="mb-12">
+      <h3 class="text-xl font-bold mb-4 text-blue-900 dark:text-blue-200">Literowanie</h3>
+      <div class="overflow-x-auto rounded-lg shadow border border-gray-200 dark:border-gray-700">
+        <table class="min-w-full text-base text-gray-900 dark:text-gray-100">
+          <thead class="bg-blue-100 dark:bg-gray-800">
+            <tr>
+              <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Litera</th>
+              <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Międzynarodowy</th>
+              <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Amerykański</th>
+              <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Polski</th>
+              <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Rosyjski</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr v-for="(row, idx) in literowanie" :key="row.litera" :class="idx % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800'">
+              <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700 font-mono">{{ row.litera }}</td>
+              <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700">{{ row.miedzynarodowy }}</td>
+              <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700">{{ row.amerykanski }}</td>
+              <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700">{{ row.polski }}</td>
+              <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700">{{ row.rosyjski }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+    <!-- Section 3: Raporty RS(T) oraz RSQ -->
+    <section v-if="selectedCategory === 'RAPORTY RS(T) ORAZ RSQ'" class="mb-12">
+      <h3 class="text-xl font-bold mb-4 text-blue-900 dark:text-blue-200">Raporty RS(T) oraz RSQ</h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <!-- RST Table -->
+        <div class="overflow-x-auto rounded-lg shadow border border-gray-200 dark:border-gray-700">
+          <table class="min-w-full text-base text-gray-900 dark:text-gray-100 mb-4">
+            <caption class="text-lg font-semibold mb-2 text-center text-blue-800 dark:text-blue-200">Raporty RST</caption>
+            <thead class="bg-blue-100 dark:bg-gray-800">
+              <tr>
+                <th class="px-6 py-3 w-32 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Kod</th>
+                <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Opis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(row, idx) in raportyRST" :key="row.kod" :class="idx % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800'">
+                <td class="px-6 py-3 w-32 border-b border-gray-200 dark:border-gray-700 font-mono">{{ row.kod }}</td>
+                <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700">{{ row.opis }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- RSQ Table -->
+        <div class="overflow-x-auto rounded-lg shadow border border-gray-200 dark:border-gray-700">
+          <table class="min-w-full text-base text-gray-900 dark:text-gray-100 mb-4">
+            <caption class="text-lg font-semibold mb-2 text-center text-blue-800 dark:text-blue-200">Raporty RSQ</caption>
+            <thead class="bg-blue-100 dark:bg-gray-800">
+              <tr>
+                <th class="px-6 py-3 w-32 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Kod</th>
+                <th class="px-4 py-3 font-bold text-left border-b border-gray-300 dark:border-gray-600 whitespace-nowrap">Opis</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="(row, idx) in raportyRSQ" :key="row.kod" :class="idx % 2 === 0 ? 'bg-white dark:bg-gray-900' : 'bg-gray-50 dark:bg-gray-800'">
+                <td class="px-6 py-3 w-32 border-b border-gray-200 dark:border-gray-700 font-mono">{{ row.kod }}</td>
+                <td class="px-4 py-3 border-b border-gray-200 dark:border-gray-700">{{ row.opis }}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -261,3 +275,12 @@ const raportyRSQ = [
   { kod: 'Q - 9', opis: 'bardzo czysta jedna ścieżka sygnału' },
 ]
 </script>
+
+<style scoped>
+/* Extra focus ring for table row hover */
+tbody tr:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(219 234 254 / var(--tw-bg-opacity)); /* Tailwind blue-50 */
+  transition: background 0.2s;
+}
+</style>

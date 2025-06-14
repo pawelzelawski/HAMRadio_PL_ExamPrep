@@ -1,3 +1,4 @@
+// Polish: Baza Pytań Egzaminacyjnych
 import { createRouter, createWebHistory } from 'vue-router'
 
 // Lazy-load pages

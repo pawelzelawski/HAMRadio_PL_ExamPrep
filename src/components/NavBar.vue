@@ -39,11 +39,11 @@
     </div>
     <!-- Desktop layout -->
     <div class="hidden sm:flex w-full items-center justify-between">
-      <h1 class="text-2xl font-bold tracking-wide">Egzamin KF</h1>
+      <router-link to="/" class="text-2xl font-bold tracking-wide text-white hover:text-yellow-300 transition-colors" style="text-decoration: none;">Egzamin KF</router-link>
       <nav class="mt-2 sm:mt-0 gap-4 hidden sm:flex items-center">
-        <router-link to="/knowledge" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Baza pytań</router-link>
-        <router-link to="/flashcards" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Fiszki</router-link>
-        <router-link to="/quiz" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Test próbny</router-link>
+        <router-link to="/baza-pytan" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Baza pytań</router-link>
+        <router-link to="/fiszki" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Fiszki</router-link>
+        <router-link to="/test" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Test próbny</router-link>
         <router-link to="/nauka" class="hover:underline text-blue-200 hover:text-yellow-300 transition-colors">Nauka</router-link>
       </nav>
       <button @click="toggleTheme" class="ml-4 p-2 rounded-full bg-gray-700 hover:bg-gray-600 transition flex items-center justify-center" aria-label="Przełącz motyw">
@@ -67,9 +67,9 @@
     </div>
     <!-- Mobile menu dropdown -->
     <nav v-if="showMenu" class="flex flex-col gap-2 mt-4 sm:hidden w-full bg-blue-900 rounded shadow z-50">
-      <router-link @click="showMenu = false" to="/knowledge" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Baza pytań</router-link>
-      <router-link @click="showMenu = false" to="/flashcards" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Fiszki</router-link>
-      <router-link @click="showMenu = false" to="/quiz" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Test próbny</router-link>
+      <router-link @click="showMenu = false" to="/baza-pytan" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Baza pytań</router-link>
+      <router-link @click="showMenu = false" to="/fiszki" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Fiszki</router-link>
+      <router-link @click="showMenu = false" to="/test" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Test próbny</router-link>
       <router-link @click="showMenu = false" to="/nauka" class="block px-4 py-2 hover:bg-blue-700 text-blue-200 hover:text-yellow-300 transition-colors">Nauka</router-link>
     </nav>
   </header>
