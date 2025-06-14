@@ -21,9 +21,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const props = defineProps({ question: Object })
+import { ref, watch } from 'vue'
+const props = defineProps({ question: Object, expand: Boolean })
 const open = ref(false)
+
+watch(() => props.expand, (val) => {
+  open.value = !!val
+})
 
 function resolveImagePath(img) {
   // Remove any leading 'images/' or '/' from the path, then prepend '/images/'
