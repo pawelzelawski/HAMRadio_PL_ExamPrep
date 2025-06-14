@@ -103,21 +103,21 @@
     {
       "question": "11. Od czego zależna jest rezystancja przewodu?",
       "answers": [
-        "a.",
+        "a. jego materiału, długości, przekroju i temperatury.",
         "b. jego materiału, długości, przekroju i użytej izolacji.",
         "c. jego materiału, długości, przekroju i napięcia pracy."
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "12. Który przewód o tej samej długości i przekroju będzie miał największą rezystancję?",
       "answers": [
         "a. wykonany z aluminium",
-        "b.",
+        "b. wykonany z żelaza",
         "c. wykonany z miedzi"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -295,9 +295,9 @@
       "answers": [
         "a. 1,5 V",
         "b. 1 V",
-        "c."
+        "c. 1,4 V"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -375,9 +375,9 @@
       "answers": [
         "a. są równolegle do osi przewodu",
         "b. przewodnik z prądem wytwarza tylko pole elektryczne",
-        "c."
+        "c. są równoległe do powierzchni przewodnika i prostopadłe do jego osi"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -563,11 +563,11 @@
     {
       "question": "57. Współczynnik skrócenia kabla koncentrycznego to: próżn i",
       "answers": [
-        "a.",
+        "a. stosunek prędkości rozchodzenia się fali w kablu do prędkości rozchodzenia w próżni",
         "b. stosunek długości kabla do jego średnicy",
         "c. parametr charakteryzujący odporność kabla na promieniowanie UV"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -898,7 +898,9 @@
         "c. prostownik mostkowy dwupołówkowy"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img01.png"
+      ]
     },
     {
       "question": "91. Na rysunku przedstawiono schemat prostownika. Jak nazywa się ten rodzaj prostownika?",
@@ -909,7 +911,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page9_img1.png"
+        "images/radiotechnika_img02.png"
       ]
     },
     {
@@ -950,7 +952,9 @@
         "c. dzielnik wzorca"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img03.png"
+      ]
     },
     {
       "question": "96. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych, ale nieopisanych bloków. Blok 4 to:",
@@ -961,8 +965,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page10_img1.png",
-        "images/cat_RADIOTECHNIKA_page10_img2.png"
+        "images/radiotechnika_img03.png"
       ]
     },
     {
@@ -973,7 +976,9 @@
         "c. detektor AM"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img04.png"
+      ]
     },
     {
       "question": "98. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 5 to:",
@@ -983,7 +988,9 @@
         "c. detektor AM"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img04.png"
+      ]
     },
     {
       "question": "99. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 1 to:",
@@ -994,9 +1001,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page11_img1.png",
-        "images/cat_RADIOTECHNIKA_page11_img2.png",
-        "images/cat_RADIOTECHNIKA_page11_img3.png"
+        "images/radiotechnika_img05.png"
       ]
     },
     {
@@ -1007,7 +1012,9 @@
         "c. heterodyna"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img05.png"
+      ]
     },
     {
       "question": "101. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 1 to:",
@@ -1017,7 +1024,9 @@
         "c. heterodyna"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img06.png"
+      ]
     },
     {
       "question": "102. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 2 to:",
@@ -1028,10 +1037,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page12_img1.png",
-        "images/cat_RADIOTECHNIKA_page12_img2.png",
-        "images/cat_RADIOTECHNIKA_page12_img3.png",
-        "images/cat_RADIOTECHNIKA_page12_img4.png"
+        "images/radiotechnika_img07.png"
       ]
     },
     {
@@ -1052,7 +1058,9 @@
         "c. separator"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img08.png"
+      ]
     },
     {
       "question": "105. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 1 to:",
@@ -1062,7 +1070,9 @@
         "c. separator"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img09.png"
+      ]
     },
     {
       "question": "106. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 1 to:",
@@ -1072,7 +1082,9 @@
         "c. wzbudnica SSB 9 MHz"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img10.png"
+      ]
     },
     {
       "question": "107. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 2 to:",
@@ -1083,9 +1095,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page13_img1.png",
-        "images/cat_RADIOTECHNIKA_page13_img2.png",
-        "images/cat_RADIOTECHNIKA_page13_img3.png"
+        "images/radiotechnika_img10.png"
       ]
     },
     {
@@ -1116,7 +1126,9 @@
         "c. I direktor"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img11.png"
+      ]
     },
     {
       "question": "111. Na rysunku przedstawiona jest antena typu Yagi-Uda. Element 2 to:",
@@ -1127,8 +1139,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page14_img1.png",
-        "images/cat_RADIOTECHNIKA_page14_img2.png"
+        "images/radiotechnika_img11.png"
       ]
     },
     {
@@ -1139,7 +1150,9 @@
         "c. II direktor"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img11.png"
+      ]
     },
     {
       "question": "113. Na rysunku przedstawiona jest antena typu Yagi-Uda. Element 4 to:",
@@ -1149,7 +1162,9 @@
         "c. wibrator"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img11.png"
+      ]
     },
     {
       "question": "114. W jakim przypadku powstaje w linii przesyłowej w.cz. fala stojąca?",
@@ -1169,11 +1184,7 @@
         "c. refraktometr"
       ],
       "correct": 1,
-      "images": [
-        "images/cat_RADIOTECHNIKA_page15_img1.png",
-        "images/cat_RADIOTECHNIKA_page15_img2.png",
-        "images/cat_RADIOTECHNIKA_page15_img3.png"
-      ]
+      "images": []
     },
     {
       "question": "116. Reflektometr wskazuje, że amplituda fali padającej jest równa amplitudzie fali odbitej. Współczynnik fali stojącej równy jest nieskończoności. Co może być przyczyną takiego stanu?",
@@ -1623,7 +1634,9 @@
         "c. prostownik mostkowy dwupołówkowy"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img12.png"
+      ]
     },
     {
       "question": "161. Napięcie na wyjściu zasilacza nieobciążonego z filtrem pojemnościowym, wynosi 25 V. Jakie jest napięcie U sk transformatora zasilającego diody?",
@@ -1674,7 +1687,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page20_img1.png"
+        "images/radiotechnika_img13.png"
       ]
     },
     {
@@ -1730,11 +1743,11 @@
     {
       "question": "171. Bezpośrednia synteza cyfrowa (DDS) generuje przebieg przez:",
       "answers": [
-        "a.",
+        "a. użycie przetwornika cyfrowo-analogowego",
         "b. cyfrowe przestrajanie obwodu rezonansowego",
         "c. cyfrowe sterowanie układem NE555"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -1746,7 +1759,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page21_img1.png"
+        "images/radiotechnika_img14.png"
       ]
     },
     {
@@ -1757,7 +1770,9 @@
         "c. wzmacniacz błędu"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img14.png"
+      ]
     },
     {
       "question": "174. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 5 to:",
@@ -1767,20 +1782,20 @@
         "c. komparator fazy"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img14.png"
+      ]
     },
     {
       "question": "175. Na rysunku przedstawiono schemat stabilizacji PLL w formie ponumerowanych ale nie opisanych bloków. Blok 6 to:",
       "answers": [
         "a. komparator fazy",
         "b. dzielnik nastawny",
-        "c."
+        "c. wzmacniacz błędu"
       ],
-      "correct": null,
+      "correct": 2,
       "images": [
-        "images/cat_RADIOTECHNIKA_page22_img1.png",
-        "images/cat_RADIOTECHNIKA_page22_img2.png",
-        "images/cat_RADIOTECHNIKA_page22_img3.png"
+        "images/radiotechnika_img14.png"
       ]
     },
     {
@@ -1791,7 +1806,9 @@
         "c. detektor AM"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img15.png"
+      ]
     },
     {
       "question": "177. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 3 to:",
@@ -1801,7 +1818,9 @@
         "c. heterodyna"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img15.png"
+      ]
     },
     {
       "question": "178. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM z pojedynczą przemianą. Blok 4 to:",
@@ -1812,9 +1831,7 @@
       ],
       "correct": 2,
       "images": [
-        "images/cat_RADIOTECHNIKA_page23_img1.png",
-        "images/cat_RADIOTECHNIKA_page23_img2.png",
-        "images/cat_RADIOTECHNIKA_page23_img3.png"
+        "images/radiotechnika_img15.png"
       ]
     },
     {
@@ -1825,7 +1842,9 @@
         "c. heterodyna"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img15.png"
+      ]
     },
     {
       "question": "180. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 2 to:",
@@ -1835,17 +1854,21 @@
         "c. filtr przełączany II p.cz."
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "181. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 3 to:",
       "answers": [
         "a. BFO",
-        "b.",
+        "b. wzmacniacz I pośredniej cz.",
         "c. heterodyna"
       ],
-      "correct": null,
-      "images": []
+      "correct": 1,
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "182. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 4 to:",
@@ -1856,10 +1879,7 @@
       ],
       "correct": 2,
       "images": [
-        "images/cat_RADIOTECHNIKA_page24_img1.png",
-        "images/cat_RADIOTECHNIKA_page24_img2.png",
-        "images/cat_RADIOTECHNIKA_page24_img3.png",
-        "images/cat_RADIOTECHNIKA_page24_img4.png"
+        "images/radiotechnika_img16.png"
       ]
     },
     {
@@ -1870,7 +1890,9 @@
         "c. detektor AM CW SSB"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "184. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 6 to:",
@@ -1880,7 +1902,9 @@
         "c. II heterodyna stała"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "185. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 7 to:",
@@ -1890,7 +1914,9 @@
         "c. detektor AM , CW, SSB"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "186. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 8 to:",
@@ -1901,10 +1927,7 @@
       ],
       "correct": 2,
       "images": [
-        "images/cat_RADIOTECHNIKA_page25_img1.png",
-        "images/cat_RADIOTECHNIKA_page25_img2.png",
-        "images/cat_RADIOTECHNIKA_page25_img3.png",
-        "images/cat_RADIOTECHNIKA_page25_img4.png"
+        "images/radiotechnika_img16.png"
       ]
     },
     {
@@ -1915,7 +1938,9 @@
         "c. detektor AM, CW, SSB"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "188. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego AM, CW, SSB z podwójną przemianą częstotliwości. Blok 11 to:",
@@ -1925,17 +1950,21 @@
         "c. detektor AM"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img16.png"
+      ]
     },
     {
       "question": "189. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 2 to:",
       "answers": [
         "a. wzmacniacz akustyczny",
         "b. filtr wejściowy",
-        "c."
+        "c. mieszacz zrównoważony"
       ],
-      "correct": null,
-      "images": []
+      "correct": 2,
+      "images": [
+        "images/radiotechnika_img17.png"
+      ]
     },
     {
       "question": "190. Na rysunku przedstawiono schemat blokowy odbiornika homodynowego CW i SSB, na jedno pasmo amatorskie. Blok 3 to:",
@@ -1946,10 +1975,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page26_img1.png",
-        "images/cat_RADIOTECHNIKA_page26_img2.png",
-        "images/cat_RADIOTECHNIKA_page26_img3.png",
-        "images/cat_RADIOTECHNIKA_page26_img4.png"
+        "images/radiotechnika_img17.png"
       ]
     },
     {
@@ -1960,7 +1986,9 @@
         "c. heterodyna"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img17.png"
+      ]
     },
     {
       "question": "192. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 1 to:",
@@ -1970,7 +1998,9 @@
         "c. detektor FM"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img18.png"
+      ]
     },
     {
       "question": "193. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 3 to:",
@@ -1981,9 +2011,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page27_img1.png",
-        "images/cat_RADIOTECHNIKA_page27_img2.png",
-        "images/cat_RADIOTECHNIKA_page27_img3.png"
+        "images/radiotechnika_img18.png"
       ]
     },
     {
@@ -1994,7 +2022,9 @@
         "c. II mieszacz"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img18.png"
+      ]
     },
     {
       "question": "195. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 5 to:",
@@ -2004,7 +2034,9 @@
         "c. detektor FM"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img18.png"
+      ]
     },
     {
       "question": "196. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 6 to:",
@@ -2015,9 +2047,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page28_img1.png",
-        "images/cat_RADIOTECHNIKA_page28_img2.png",
-        "images/cat_RADIOTECHNIKA_page28_img3.png"
+        "images/radiotechnika_img18.png"
       ]
     },
     {
@@ -2028,7 +2058,9 @@
         "c. detektor FM"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img18.png"
+      ]
     },
     {
       "question": "198. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 8 to:",
@@ -2038,7 +2070,9 @@
         "c. detektor FM"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img18.png"
+      ]
     },
     {
       "question": "199. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 9 to:",
@@ -2048,7 +2082,9 @@
         "c. II heterodyna stała"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img18.png"
+      ]
     },
     {
       "question": "200. Na rysunku przedstawiono schemat blokowy odbiornika superheterodynowego FM na pasmo 144 MHz z podwójną przemianą częstotliwości, pracującego w kanałach fonicznych, stabilizowany kwarcami. Blok 10 to:",
@@ -2059,8 +2095,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page29_img1.png",
-        "images/cat_RADIOTECHNIKA_page29_img2.png"
+        "images/radiotechnika_img18.png"
       ]
     },
     {
@@ -2081,7 +2116,9 @@
         "c. oscylator (VFO)"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img19.png"
+      ]
     },
     {
       "question": "203. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 2 to:",
@@ -2091,7 +2128,9 @@
         "c. separator"
       ],
       "correct": 2,
-      "images": []
+      "images": [
+        "images/radiotechnika_img19.png"
+      ]
     },
     {
       "question": "204. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na jedno pasmo amatorskie. Blok 3 to:",
@@ -2101,7 +2140,9 @@
         "c. filtr wyjściowy"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img19.png"
+      ]
     },
     {
       "question": "205. Na rysunku przedstawiono schemat blokowy nadajnika telegraficznego na kilka pasm amatorskich z powielaniem częstotliwości. Blok 2 to:",
@@ -2112,9 +2153,7 @@
       ],
       "correct": 1,
       "images": [
-        "images/cat_RADIOTECHNIKA_page30_img1.png",
-        "images/cat_RADIOTECHNIKA_page30_img2.png",
-        "images/cat_RADIOTECHNIKA_page30_img3.png"
+        "images/radiotechnika_img20.png"
       ]
     },
     {
@@ -2125,7 +2164,9 @@
         "c. VFO 5 - 5.,5 MHz"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img21.png"
+      ]
     },
     {
       "question": "207. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 4 to:",
@@ -2135,7 +2176,9 @@
         "c. wzbudnica SSB 9 MHz"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img21.png"
+      ]
     },
     {
       "question": "208. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 5 to:",
@@ -2146,9 +2189,7 @@
       ],
       "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page31_img1.png",
-        "images/cat_RADIOTECHNIKA_page31_img2.png",
-        "images/cat_RADIOTECHNIKA_page31_img3.png"
+        "images/radiotechnika_img21.png"
       ]
     },
     {
@@ -2159,7 +2200,9 @@
         "c. mieszacz"
       ],
       "correct": 1,
-      "images": []
+      "images": [
+        "images/radiotechnika_img21.png"
+      ]
     },
     {
       "question": "210. Na rysunku przedstawiono schemat blokowy nadajnika SSB na dwa pasma amatorskie z wzbudnicą 9 MHz. Blok 7 to:",
@@ -2169,16 +2212,18 @@
         "c. filtr pasmowy 3,5 - 14 MHz"
       ],
       "correct": 0,
-      "images": []
+      "images": [
+        "images/radiotechnika_img21.png"
+      ]
     },
     {
       "question": "211. Jak zmienia się impedancja dipola półfalowego, gdy obniżamy wysokość jego zawieszenia?",
       "answers": [
         "a. rośnie.",
-        "b.",
+        "b. maleje.",
         "c. nie ulega zmianie."
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -2370,39 +2415,39 @@
       "answers": [
         "a. 10 m",
         "b. 12 m",
-        "c."
+        "c. 20 m"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "231. Prędkość rozchodzenia się fali elektromagnetycznej w ośrodku innym niż próżnia jest:",
       "answers": [
-        "a.",
+        "a. mniejsza niż w próżni",
         "b. większa niż w próżni",
         "c. mniejsza lub większa niż w próżni, zależnie od rodzaju ośrodka"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "232. Jeżeli składowa elektryczna fali jest prostopadła do ziemi, to fala ma polaryzację:",
       "answers": [
         "a. poziomą",
-        "b.",
+        "b. pionową",
         "c. nie da się tego stwierdzić bez znajomości ułożenia składowej magnetycznej"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "233. Napięcie międzyszczytowe sinusoidalnego napięcia zmiennego wynosi 678 V. Ile wynosi wartość skuteczna tego napięcia?",
       "answers": [
         "a. 339 V",
-        "b.",
+        "b. 240 V",
         "c. 481 V"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -2420,9 +2465,9 @@
       "answers": [
         "a. dziesięciokrotności częstotliwości sygnału wejściowego.",
         "b. zerowej.",
-        "c."
+        "c. nieskończonej"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2430,9 +2475,9 @@
       "answers": [
         "a. kluczowanie amplitudy",
         "b. kluczowanie fazy",
-        "c."
+        "c. kluczowanie częstotliwości"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2440,9 +2485,9 @@
       "answers": [
         "a. zwiększa się",
         "b. zmniejsza się",
-        "c."
+        "c. nie zmienia się"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2450,69 +2495,69 @@
       "answers": [
         "a. 5 W",
         "b. 130 W",
-        "c."
+        "c. 20 W"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "239. Zasilacz dostarcza do stopnia końcowego nadajnika napięcie 500 V i prąd 200 mA. Jaka jest sprawność energetyczna stopnia końcowego, jeżeli na wyjściu zmierzyliśmy moc PEP = 40 W?",
       "answers": [
         "a. 50%",
-        "b.",
+        "b. 40%",
         "c. 60%"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "240. Która z podanych mocy PEP odpowiada napięciu maksymalnemu Umax = 100 V, zmierzonemu oscyloskopem na wyjściu nadajnika, na obciążeniu 50 omów (zakładamy sygnał sinusoidalny)?",
       "answers": [
         "a. 200 W",
-        "b.",
+        "b. 100 W",
         "c. 50 W"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "241. W przetwornikach analogowo-cyfrowych, aby poprawnie odczytać sygnał wejściowy, częstotliwość próbkowania musi być: sygnału",
       "answers": [
-        "a.",
+        "a. większa lub równa dwukrotności najwyższej częstotliwości przetwarzanego sygnału",
         "b. większa lub równa najwyższej częstotliwości przetwarzanego sygnału",
         "c. większa lub równa połowie najwyższej częstotliwości przetwarzanego sygnału"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "242. Filtr antyaliasingowy w odbiorniku SDR może być zrealizowany jako:",
       "answers": [
-        "a.",
+        "a. filtr sprzętowy",
         "b. filtr programowy",
         "c. filtr sprzętowy lub programowy"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "243. Rezystor o wartości 10 Ω dołączono do napięcia 3 V. Jakiej mocy rezystor należy dobrać, żeby nie uległ on uszkodzeniu?",
       "answers": [
-        "a.",
+        "a. 1 W",
         "b. 0,125 W",
         "c. 0,5 W"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "244. W kondensatorze energia jest magazynowana w:",
       "answers": [
-        "a.",
+        "a. polu elektrycznym",
         "b. polu magnetycznym",
         "c. nie jest magazynowana"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -2520,19 +2565,19 @@
       "answers": [
         "a. 0,1 raza",
         "b. 100 razy",
-        "c."
+        "c. 10 razy"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "246. W kondensatorze przy napięciu przemiennym:",
       "answers": [
-        "a.",
+        "a. prąd wyprzedza napięcie w fazie o 90 stopni",
         "b. prąd jest w fazie z napięciem",
         "c. napięcie wyprzedza prąd w fazie o 90 stopni"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -2540,9 +2585,9 @@
       "answers": [
         "a. wprowadzają mniejsze straty w polu magnetycznym niż powietrze",
         "b. można przez cewkę przesłać znacznie większy prąd",
-        "c."
+        "c. większość pola magnetycznego zamyka się w rdzeniu i cewka mniej wpływa na inne elementy"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2550,59 +2595,59 @@
       "answers": [
         "a. rezystancyjny",
         "b. pojemnościowy",
-        "c."
+        "c. indukcyjny"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "249. Diody Zenera to diody:",
       "answers": [
-        "a.",
+        "a. służące do stabilizacji napięć",
         "b. świecące",
         "c. na bardzo wysokie częstotliwości"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "250. Zasadniczym przeznaczeniem diody PIN jest:",
       "answers": [
         "a. prostowanie bardzo dużych napięć i prądów",
-        "b.",
+        "b. stosowanie jej jako przełącznika w. cz.",
         "c. stosowanie jej jako elementu ochronnego przed przepięciem"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "251. Zasadniczymi zaletami diody TVS (Transil) są:",
       "answers": [
-        "a.",
+        "a. szybkie przełączanie i rozpraszanie dużych chwilowych mocy",
         "b. spadek napięcia rzędu 1 mV i bardzo mała pojemność złącza",
         "c. dodatkowy zacisk sterujący i liniowa charakterystyka prądowo-napięciowa"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "252. Na wyjściu transformatora sieciowego napięcie skuteczne jest równe 300 V. Czy w prostowniku jednopołówkowym można użyć diody wytrzymującej napięcie wsteczne 400 V?",
       "answers": [
         "a. tak",
-        "b.",
+        "b. nie",
         "c. tak, ale tylko przy małych obciążeniach"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "253. Aby tranzystor PNP zaczął przewodzić, należy przyłożyć pomiędzy jego bazę i emiter napięcie:",
       "answers": [
         "a. dodatnie (wyższy potencjał do bazy)",
-        "b.",
+        "b. ujemne (niższy potencjał do bazy)",
         "c. zerowe (taki sam potencjał na bazie i emiterze)"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -2610,9 +2655,9 @@
       "answers": [
         "a. napięciem i prądem",
         "b. prądem i prądem",
-        "c."
+        "c. prądem i napięciem"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2638,31 +2683,33 @@
     {
       "question": "257. Jaka jest funkcja kondensatora C1 w układzie przedstawionym na rysunku?",
       "answers": [
-        "a.",
+        "a. zwiększenie wzmocnienia dla prądów zmiennych",
         "b. filtrowanie prądu spoczynkowego",
         "c. nie ma żadnej funkcji"
       ],
-      "correct": null,
-      "images": []
+      "correct": 0,
+      "images": [
+        "images/cat_RADIOTECHNIKA_page37_img1.png"
+      ]
     },
     {
       "question": "258. Mamy dwa kondensatory o pojemności 4,7 nF oraz 300 pF. Jak należy je połączyć, by uzyskać pojemność 5000 pF?",
       "answers": [
         "a. szeregowo",
-        "b.",
+        "b. równolegle",
         "c. nie da się uzyskać pojemności 5000 pF"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
-      "question": "259. W układzie były trzy kondensatory, każdy po 30 μF, połączone szeregowo. Każdy z nich ma napięcie pracy 100V. Czy możemy je zastąpić jednym kondensatorem 10 μF? Jeśli tak, to o jakim napięciu pracy?",
+      "question": "259. W układzie były trzy kondensatory, każdy po 30 μF, połączone szeregowo. Każdy z nich ma napięcie pracy 100V. Czy możemy je zastąpić jednym kondensatorem 10 µF? Jeśli tak, to o jakim napięciu pracy?",
       "answers": [
         "a. nie możemy",
         "b. możemy, stosując kondensator na napięcie 100 V",
-        "c."
+        "c. możemy, stosując kondensator na napięcie 300 V"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2678,13 +2725,12 @@
     {
       "question": "261. Obwód rezonansowy szeregowy LC, w punkcie rezonansu, przedstawia:",
       "answers": [
-        "a.",
+        "a. tylko rezystancję",
         "b. reaktancję pojemnościową",
         "c. reaktancję indukcyjną"
       ],
-      "correct": null,
+      "correct": 0,
       "images": [
-        "images/cat_RADIOTECHNIKA_page37_img1.png"
       ]
     },
     {
@@ -2692,29 +2738,29 @@
       "answers": [
         "a. 280 kHz",
         "b. 14 kHz",
-        "c."
+        "c. 140 kHz"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "263. Skrzynka antenowa w układzie T, gdzie szeregowo włączone są kondensatory, a równolegle cewka, jest:",
       "answers": [
         "a. filtrem dolnoprzepustowym",
-        "b.",
+        "b. filtrem górnoprzepustowym",
         "c. filtrem pasmowym"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "264. Zwiększenie rzędu filtru powoduje:",
       "answers": [
-        "a.",
+        "a. zwiększenie stromości zbocza",
         "b. pogorszenie właściwości filtracyjnych",
         "c. zmianę częstotliwości rezonansowej"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -2722,19 +2768,21 @@
       "answers": [
         "a. Zabezpieczenie tranzystora przed uszkodzeniem",
         "b. Zwiększenie impedancji wejściowej",
-        "c."
+        "c. Ustalenie punktu pracy tranzystora"
       ],
-      "correct": null,
-      "images": []
+      "correct": 2,
+      "images": [
+        "images/cat_RADIOTECHNIKA_page37_img1.png"
+      ]
     },
     {
       "question": "266. Która klasa pracy wzmacniacza wprowadza najmniejsze zniekształcenia?",
       "answers": [
         "a. klasa AB",
-        "b.",
+        "b. klasa A",
         "c. klasa C"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -2742,9 +2790,9 @@
       "answers": [
         "a. pojedynczej diody i kondensatora",
         "b. mieszacza podwójnie zrównoważonego",
-        "c."
+        "c. pętli synchronizacji fazy"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -2752,131 +2800,129 @@
       "answers": [
         "a. zwiększenie wzmocnienia wzmacniacza.",
         "b. utworzenie obwodu rezonansowego, który działa jako filtr pasmowy.",
-        "c."
+        "c. zwiększenie stabilności wzmacniacza."
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "269. Szum fazowy jest wynikiem:",
       "answers": [
         "a. kluczowania fazy (PSK)",
-        "b.",
+        "b. krótkich i niewielkich odchyleń częstotliwości generatora",
         "c. mieszania się sygnałów o różnych fazach"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "270. Jako dzielnik częstotliwości w pętli synchronizacji fazy można użyć:",
       "answers": [
-        "a.",
+        "a. licznik",
         "b. wzmacniacz operacyjny",
         "c. dzielnik rezystorowy"
       ],
-      "correct": null,
-      "images": [
-        "images/cat_RADIOTECHNIKA_page38_img1.png"
-      ]
+      "correct": 0,
+      "images": []
     },
     {
       "question": "271. W transceiverach SDR do przetwornika A/C doprowadza się sygnały kwadraturowe (oznaczone jako I oraz Q). Jaki jest tego cel?",
       "answers": [
-        "a.",
+        "a. Możliwość zaprogramowania demodulatora dla każdej emisji",
         "b. Minimalizacja zniekształceń sygnału",
         "c. Możliwość demodulacji sygnałów z dwóch różnych źródeł"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "272. Bezpośrednia synteza cyfrowa (DDS) generuje przebieg przez:",
       "answers": [
-        "a.",
+        "a. użycie przetwornika cyfrowo-analogowego",
         "b. cyfrowe przestrajanie obwodu rezonansowego",
         "c. cyfrowe sterowanie układem NE555"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "273. Odbiornik homodynowy od superheteredynowego odróżnia:",
       "answers": [
-        "a.",
+        "a. brak częstotliwości pośredniej (jest równa 0)",
         "b. brak generatora",
         "c. brak demodulatora"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "274. Dewiacja sygnału FM opisuje:",
       "answers": [
-        "a.",
+        "a. maksymalne odchylenie od częstotliwości nośnej",
         "b. szerokość pasma sygnału",
         "c. maksymalne różnice amplitudy sygnału"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "275. Zbyt szybkie narastanie i opadanie sygnału telegraficznego powoduje:",
       "answers": [
-        "a.",
+        "a. zakłócenia określane jako 'kliki'",
         "b. zwiększenie mocy wyjściowej nadajnika,",
         "c. zmniejszenie pasma używanego w tej emisji."
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "276. Antena Yagi-Uda składa się co najmniej z:",
       "answers": [
-        "a.",
+        "a. wibratora, reflektora i direktora",
         "b. wibratora i directora",
         "c. pięciu prętów aluminiowych"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "277. Jeśli SWR w punkcie zasilania jest równy 1:1 to oznacza, że:",
       "answers": [
-        "a.",
+        "a. osiągnięto bardzo dobre dopasowanie linii zasilającej do nadajnika",
         "b. antena jest zawsze najlepiej dopasowana",
         "c. antena może pracować na kilku pasmach"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "278. Gdy antena jest w rezonansie, to:",
       "answers": [
         "a. moduł impedancji jest równy 50 Ω",
-        "b.",
+        "b. reaktancja jest równa 0 Ω",
         "c. reaktancja jest nieskończenie duża"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "279. Dipol półfalowy na pasmo 80 m prezentuje na paśmie 40 m",
       "answers": [
         "a. niską impedancję",
-        "b.",
+        "b. bardzo wysoką impedancję",
         "c. zwarcie"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "280. Dipol półfalowy na pasmo 40m można użyć na paśmie:",
       "answers": [
-        "a.",
+        "a. 7 i 21 MHz",
         "b. 3,5 i 5 MHz",
         "c. 7 i 28 MHz"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -2913,30 +2959,30 @@
       "question": "284. Zysk anteny wyrażony jest w dBi. Względem jakiego źródła jest określony?",
       "answers": [
         "a. Dipola półfalowego",
-        "b.",
+        "b. Anteny izotropowej",
         "c. Anteny pionowej ćwierćfalowej"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "285. Antena kierunkowa w kierunku wiązki głównej wytwarza pole EM o natężeniu 4 razy większym, niż dipol półfalowy zawieszony w tym samym miejscu. Jaki zysk ma antena?",
       "answers": [
-        "a.",
+        "a. 6 dBd",
         "b. 4 dBd",
         "c. 12 dBd"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "286. Na paśmie 5 MHz w Polsce można nadawać maksymalną mocą 15 W EIRP, a zatem do dipola na to pasmo można doprowadzić moc około:",
       "answers": [
-        "a.",
+        "a. 5 W",
         "b. 15 W",
         "c. 100 W, gdyż dipol ma ujemny zysk EIRP"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -2962,11 +3008,11 @@
     {
       "question": "289. Mamy antenę kierunkową A o zysku 3 dBi i antenę kierunkową B o zysku 6 dBi. Do każdej z nich podano sygnał o mocy 100 W. Ile całkowitej mocy wypromieniowała każda antena?",
       "answers": [
-        "a.",
+        "a. A - 100 W, B - 100 W",
         "b. A - 200 W, B - 400 W",
         "c. A - 100 W, B - 200 W"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -2983,30 +3029,30 @@
       "question": "291. Poziomo powieszony dipol półfalowy promieniuje:",
       "answers": [
         "a. dookólnie",
-        "b.",
+        "b. najmocniej w płaszczyźnie prostopadłej do osi zawieszenia dipola",
         "c. najwięcej wzdłuż osi zawieszenia dipola"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "292. Zamierzasz zrobić łączność z kolegą znajdującym się we Włoszech przy pomocy dipola półfalowego na paśmie 20 m. W jakim kierunku najlepiej powiesić tę antenę? Uda",
       "answers": [
         "a. na osi północ-południe",
-        "b.",
+        "b. na osi wschód-zachód",
         "c. nie użyję dipola, gdyż łączność będzie trudno nawiązać bez anteny kierunkowej Yagi-"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "293. Linię symetryczną zawieszono w otwartej przestrzeni, podłączono do symetrycznego nadajnika i zakończono sztucznym obciążeniem. Czy wówczas linia promieniuje?",
       "answers": [
         "a. tak",
-        "b.",
+        "b. nie",
         "c. tak, jeśli jej długość przekracza 1/4 długości fali (jest linią długą)"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -3014,9 +3060,9 @@
       "answers": [
         "a. należy zabezpieczyć uszkodzony fragment taśmą izolacyjną",
         "b. należy zastosować ekran miedziany na uszkodzonym fragmencie w celu zapobiegania",
-        "c."
+        "c. ten fragment kabla nie nadaje się do użytku, można wyciąć uszkodzony fragment oraz wykorzystać pozostałe odcinki przewodu"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -3024,19 +3070,19 @@
       "answers": [
         "a. zerową",
         "b. niemożliwą do oszacowania",
-        "c."
+        "c. taką samą, jak prąd płynący w środkowej żyle"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "296. Pomiar SWR przy nadajniku wskazał wartość 1:1,5, ale mamy podejrzenie, że dopasowanie anteny jest niewłaściwe. Co może być przyczyną?",
       "answers": [
         "a. poziom zakłóceń lokalnych",
-        "b.",
+        "b. tłumienie linii zasilającej",
         "c. podejrzenie jest błędne, dopasowanie jest poprawne"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -3044,59 +3090,59 @@
       "answers": [
         "a. stratę 50% mocy nadajnika, brak wpływu na odbiór",
         "b. stratę 5% mocy nadajnika, zmianę SWR",
-        "c."
+        "c. stratę około 70% mocy nadajnika"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "298. Użycie baluna wskazane jest kiedy",
       "answers": [
         "a. zasilamy antenę typu longwire kablem koncentrycznym",
-        "b.",
+        "b. zasilamy dipol półfalowy kablem koncentrycznym",
         "c. chcemy przetestować tłumienność linii symetrycznej"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "299. Włączenie tłumika w odbiorniku spowoduje:",
       "answers": [
-        "a.",
+        "a. poprawę odporności odbiornika na silne sygnały",
         "b. poprawę stosunku sygnału do szumu na wejściu odbiornika",
         "c. przestrojenie odbiornika"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "300. Dlaczego możliwe są dalekie łączności UKF między szczytami górskimi?",
       "answers": [
         "a. mniejsza gęstość atmosfery powoduje zmniejszenie tłumienia trasy",
-        "b.",
+        "b. anteny nadawcza i odbiorcza dzieli wolna przestrzeń",
         "c. brak pyłu zawieszonego zmniejsza dyfrakcję fali radiowej"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "301. Stabilne i ciągłe warunki łączności zapewnia w pasmach UKF:",
       "answers": [
-        "a.",
+        "a. łączność w zasięgu horyzontalnym",
         "b. łączność troposferyczna",
         "c. łączność przez odbicie od zorzy polarnej"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "302. Dlaczego podczas dnia trudno zrobić daleką łączność na paśmie 80 m:",
       "answers": [
         "a. z racji na brak propagacji w warstwie E",
-        "b.",
+        "b. z racji na silne tłumienie w warstwie D",
         "c. z racji na to, że anteny nie działają podczas dnia"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -3104,9 +3150,9 @@
       "answers": [
         "a. początek i koniec każdego pasma amatorskiego",
         "b. częstotliwość zarezerwowana do łączności niebezpieczeństwa",
-        "c."
+        "c. częstotliwość powyżej której fala nie podlega ugięciu w jonosferze w kierunku ziemi"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -3114,59 +3160,59 @@
       "answers": [
         "a. zupełnie nieregularnie",
         "b. co około 11 lat przy minimalnej aktywności słonecznej",
-        "c."
+        "c. co około 11 lat przy maksymalnej aktywności słonecznej"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "305. Wysoka aktywność słoneczna powoduje",
       "answers": [
-        "a.",
+        "a. polepszenie propagacji w pasmach KF",
         "b. pogorszenie propagacji w pasmach KF",
         "c. nie ma wpływu na propagację fal radiowych"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "306. Częstotliwość MUF (Maximum Usable Frequency) określa się:",
       "answers": [
-        "a.",
+        "a. dla danej trasy łączności",
         "b. dla danego nadajnika",
         "c. dla każdego krótkofalowca"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "307. Aby nawiązać łączność na dalekie odległości na falach krótkich należy użyć:",
       "answers": [
         "a. anten o wysokim kącie promieniowania",
-        "b.",
+        "b. anten o niskim kącie promieniowania",
         "c. nadajnika o dużej mocy, antena i pasmo mogą być dowolne."
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "308. Pewien krótkofalowiec zawsze kiedy wyjeżdżał na działkę pod Radomiem zawieszał w tym samym miejscu dipol półfalowy na wysokości 15 m nad poziomem gruntu. Niestety pewnego razu ze względu na uszkodzenie drabiny udało mu się powiesić go tylko na wysokości 3m. Zauważył że słyszy znacznie lepiej stacje polskie ale niestety przestał słyszeć stacje francuskie. Czym spowodowane było to zjawisko?",
       "answers": [
-        "a.",
+        "a. Spowodowane jest to zmianą kątów promieniowania anteny",
         "b. Spowodowane jest to zmianą ogniskowej anteny",
         "c. Wysokość zawieszenia nie miała wpływu na zaobserwowane zjawisko"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "309. Charakterystyczne okresowe zaniki sygnału na falach krótkich spowodowane są:",
       "answers": [
         "a. niewłaściwą pracą anteny",
-        "b.",
+        "b. wielodrogową propagacją i zmianą tłumienia na trasie",
         "c. utratą mocy nadajnika"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -3174,9 +3220,9 @@
       "answers": [
         "a. wielokrotnym odbiciu fal pomiędzy troposferą i jonosferą",
         "b. wielokrotnym odbiciu fal pomiędzy ziemią i troposferą",
-        "c."
+        "c. prowadzeniu fal przez dukty powstałe z warstw ciepłego i zimnego powietrza"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -3184,99 +3230,99 @@
       "answers": [
         "a. użyć anteny promieniowania pionowego",
         "b. zainstalować antenę nisko, by mieć jak najmniejsze zakłócenia",
-        "c."
+        "c. zainstalować antenę wysoko, by mieć jak najdalszy horyzont radiowy"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "312. Pewnego dnia krótkofalowiec w paśmie 50 MHz usłyszał stacje z południa Europy. Mogło się to zdarzyć:",
       "answers": [
         "a. zimą z racji na lokalne zanieczyszczenie powietrza",
-        "b.",
+        "b. głównie latem, dzięki propagacji w warstwie sporadycznej E",
         "c. latem z uwagi na mniejszą wilgotność powietrza"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "313. Pewnego dnia po wysokiej aktywności słonecznej pewien krótkofalowiec usłyszał w paśmie 144 MHz kilka mocno zniekształconych sygnałów dalekich stacji. z trudem odebrał wywołanie “CQ aurora” z czym miał do czynienia?",
       "answers": [
         "a. rosyjskie zawody z okazji wybuchu rewolucji październikowej",
-        "b.",
+        "b. łącznościami z wykorzystaniem zorzy polarnej",
         "c. łącznościami w odbicu od księżyca"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "314. Na których pasmach amatorskich można próbować łączności poprzez odbicie od zjonizowanych śladów meteorów:",
       "answers": [
-        "a.",
+        "a. na pasmach fal ultrakrótkich, np. 70 cm lub 2 m",
         "b. na niskich pasmach fal krótkich, np. 80 m i 40 m",
         "c. takie łączności są niemożliwe, meteory są zbyt małe, by odbijać fale radiowe"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "315. Skrót EME oznacza łączności z wykorzystaniem:",
       "answers": [
-        "a.",
+        "a. odbicia sygnału od Księżyca",
         "b. odbicia sygnału od samolotu",
         "c. odbicia sygnału od troposfery"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "316. Łączności EME można zrealizować:",
       "answers": [
         "a. na falach krótkich w paśmie 80 m",
-        "b.",
+        "b. na falach ultrakrótkich przy pomocy anten kierunkowych",
         "c. nie można, jest to zabronione"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "317. Silne trzaski obserwowane często na falach krótkich są spowodowane:",
       "answers": [
-        "a.",
+        "a. przez odległe burze",
         "b. przez pracę innych nadajników",
         "c. przez niestabilność temperaturową generatora"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "318. Szumy własne odbiornika mają: tam bardzo słaby",
       "answers": [
         "a. znaczenie na paśmie 80 m, by odebrać sygnał słabej stacji",
-        "b.",
+        "b. znaczenie na falach ultrakrótkich i mikrofalach, gdyż szum atmosferyczny jest tam bardzo słaby",
         "c. praktycznie żadne znaczenie, to jest tylko parametr handlowy"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "319. Co można zrobić, by nawiązać łączność w trudnych warunkach, gdy sygnał SSB jest bardzo słabo słyszalny wśród szumów:",
       "answers": [
         "a. użyć emisji FM",
-        "b.",
+        "b. przejść na telegrafię lub emisje cyfrowe do słabych sygnałów",
         "c. jeśli na SSB sygnał jest ledwo słyszalny, to nic nie można zrobić"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "320. Antena na pasmo 2m została dołączona popularnym kablem koncentrycznym RG-58 o długości 100m. Dlaczego krótkofalowiec nie uważa takiej instalacji za optymalną:",
       "answers": [
-        "a.",
+        "a. Z racji na duże straty mocy w linii zasilającej",
         "b. Kabel RG-58 ma niewłaściwą impedancję",
         "c. Z racji na to, że kabel ten był używany w instalacjach CB Radio"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -3284,19 +3330,19 @@
       "answers": [
         "a. nie usłyszymy jej w ogóle, 10 W to za mało na taką łączność",
         "b. poprawi się jej modulacja",
-        "c."
+        "c. będziemy ją nadal słyszeć, być może z nieco większym szumem"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "322. Podczas prowadzenia łączności kierujemy się zasadą: łączność",
       "answers": [
-        "a.",
+        "a. minimalnej mocy nadajnika, niezbędnej dla danej łączności",
         "b. pracy z maksymalną mocą nadajnika",
         "c. doboru mocy nadajnika do ograniczeń licencyjnych w kraju, z którym nawiązujemy"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -3314,9 +3360,9 @@
       "answers": [
         "a. maksymalną rezystancję",
         "b. minimalną rezystancję",
-        "c."
+        "c. rezystancję dopasowaną do mierzonego prądu i parametrów ustroju pomiarowego"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -3324,69 +3370,69 @@
       "answers": [
         "a. szeregowo włączonego rezystora",
         "b. dzielnika napięcia",
-        "c."
+        "c. wszystkie odpowiedzi są poprawne"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "326. Multimetr na zakresie napięcia prądu przemiennego został dołączony do układu elektronicznego. Co może być przyczyną niewłaściwych odczytów (zbyt niskich lub zbyt wysokich): w.cz.",
       "answers": [
         "a. uziemienie woltomierza,",
-        "b.",
+        "b. woltomierz jest przystosowany do częstotliwości 50Hz, a w obwodzie jest sygnał w.cz.",
         "c. końcówki pomiarowe są niezgodne z normą HSE GS38"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "327. Kondensator elektrolityczny 10µF został naładowany do napięcia 10V i odłączony od zasilacza. Dołączony do jego końcówek woltomierz wskazuje systematyczny spadek napięcia. Co może być przyczyną tego spadku:",
       "answers": [
-        "a.",
+        "a. oporność wewnętrzna woltomierza",
         "b. strata prądu na końcówkach zasilających",
         "c. promieniowanie radioaktywne otoczenia"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "328. Częstotliwość rezonansową obwodu LC możemy zmierzyć za pomocą:",
       "answers": [
         "a. generatora kwarcowego oraz amperomierza",
-        "b.",
+        "b. przyrządu GDO lub analizatora wektorowego",
         "c. nadajnika dużej mocy, strojąc do przepalenia bezpiecznika"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "329. Co pokazuje reflektometr dołączony między wyjście nadajnika a kabel antenowy?",
       "answers": [
-        "a.",
+        "a. dopasowanie linii zasilającej",
         "b. rezonans anteny",
         "c. dostrojenie nadajnika"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "330. Co można zmierzyć za pomocą analizatora widma:",
       "answers": [
-        "a.",
+        "a. Obecność i siłę sygnałów harmonicznych i niepożądanych w sygnale nadajnika",
         "b. Czułość odbiornika na poszczególnych wycinkach widma radiowego",
         "c. Dopasowanie anteny"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "331. Ręczny radiotelefon niskiej jakości został dołączony do zewnętrznej anteny i słyszalność stacji uległa znacznemu pogorszeniu. Jakie zjawisko może być tego przyczyną: amatorskich 2 m",
       "answers": [
         "a. brak odpowiedniego przedwzmacniacza w.cz.",
-        "b.",
+        "b. blokowanie odbiornika przez bardzo silne sygnały, także spoza pasm amatorskich",
         "c. uszkodzenie odbiornika spowodowane sygnałem pobliskiego przemiennika w paśmie"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
@@ -3394,49 +3440,49 @@
       "answers": [
         "a. intermodulacja w obwodach wejściowych odbiornika FM",
         "b. rozstrajanie generatora zadającego w syntezerze w odbiorniku FM",
-        "c."
+        "c. detekcja sygnału SSB stacji amatorskiej we wzmacniaczu częstotliwości akustycznej odbiornika"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "333. Jeśli wzmacniacz mocy nie posiada pomiędzy ostatnim stopniem wzmocnienia a wyjściem antenowym filtru dolnoprzepustowego to:",
       "answers": [
         "a. może zniekształcać sygnał wyjściowy na częstotliwości roboczej",
-        "b.",
+        "b. może wprowadzać zakłócenia spowodowane przez nieodfiltrowane harmoniczne",
         "c. ma optymalną konstrukcję"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "334. Odbiornik został uszkodzony przez silny sygnał z anteny, pochodzący z pracującego w bezpośredniej bliskości nadajnika dużej mocy. Przyczyną uszkodzenia mogło być:",
       "answers": [
-        "a.",
+        "a. wyindukowanie silnego sygnału w.cz. w antenie odbiorczej",
         "b. złe dostrojenie nadajnika",
         "c. przeniesienie sygnału w.cz. po kablu zasilającym przez złe zasilanie odbiornika"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
       "question": "335. W zbudowanym wzmacniaczu m.cz. słychać dokuczliwe zakłócenia od pobliskich telefonów komórkowych. Co można zrobić, by te zakłócenia zmniejszyć:",
       "answers": [
         "a. nic nie można zrobić, zakłócenia już takie są",
-        "b.",
+        "b. zaekranować stopień wejściowy tego wzmacniacza",
         "c. zwiększyć napięcie zasilania, by stosunek sygnał/zakłócenia był korzystniejszy"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "336. Krótkofalowiec zbudował skrzynkę antenową, ale przy pracy z tą skrzynką obserwuje słabe świecenie nie zasilanej świetlówki, które nie występuje po odłączeniu skrzynki. Co może wykonać, by to zjawisko wyeliminować? obudowy",
       "answers": [
-        "a.",
+        "a. wprowadzić ekranowanie skrzynki, na przykład w postaci szczelnej, metalowej obudowy",
         "b. poprawić dopasowanie stopnia końcowego",
         "c. wymienić zasilacz sieciowy"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -3856,9 +3902,9 @@
       "answers": [
         "a. liniowy (fazowy)",
         "b. neutralny",
-        "c."
+        "c. ochronno-uziemiający"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     }
   ],
@@ -4544,13 +4590,13 @@
       "images": []
     },
     {
-      "question": "69. Czy na całym świecie obowiązuje ten sam bandplan wydawany przez IARU? dla danego regionu zakresu częstotliwości",
+      "question": "69. Czy na całym świecie obowiązuje ten sam bandplan wydawany przez IARU?",
       "answers": [
         "a. tak, krótkofalowcy na całym świecie pracują na tych samych częstotliwościach",
         "b. nie, każdy kraj wydaje swój własny bandplan na podstawie zaleceń IARU",
-        "c."
+        "c. IARU zaleca odrębny bandplan dla każdego z trzech regionów z uwzględnieniem dla danego regionu zakresu częstotliwości"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -4564,13 +4610,13 @@
       "images": []
     },
     {
-      "question": "71. Słyszysz międzynarodową łączność związaną z katastrofą, koordynację działań ratowniczych lub podobne łączności. Co zrobisz? IARU, do pomocy przy organizacji łączności",
+      "question": "71. Słyszysz międzynarodową łączność związaną z katastrofą, koordynację działań ratowniczych lub podobne łączności. Co zrobisz?",
       "answers": [
         "a. Zaraportujesz niedozwolone użycie pasm amatorskich do koordynatora monitoringu",
         "b. Zrobisz zwykłą łączność oczekując raportu i typowych informacji,",
-        "c."
+        "c. Nie przeszkadzasz, słuchasz dalej. Jeśli jest to uzasadnione - możesz dołączyć do pomocy przy organizacji łączności"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
@@ -4584,33 +4630,33 @@
       "images": []
     },
     {
-      "question": "73. Pewien początkujący krótkofalowiec zakupił tani radiotelefon. Dość szybko spostrzegł, że wskaźnik siły sygnału działa w nim zupełnie nieprawidłowo, a koledzy proszą o Raport R/S. Co powinien zrobić w tej sytuacji? słyszymy go poprawnie.",
+      "question": "73. Pewien początkujący krótkofalowiec zakupił tani radiotelefon. Dość szybko spostrzegł, że wskaźnik siły sygnału działa w nim zupełnie nieprawidłowo, a koledzy proszą o Raport R/S. Co powinien zrobić w tej sytuacji?",
       "answers": [
         "a. bezwzględnie naprawić radiotelefon lub dokupić przystawkę mierzącą siłę sygnału",
-        "b.",
+        "b. Może podawać raporty 'na ucho' i poinformować o tym korespondenta",
         "c. nie ma żadnego powodu żeby podawać korespondentowi siłę jego sygnału jeśli"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
-      "question": "74. Stacja z Włoch woła \"CQ DX, CQ DX beaming Pacific Ocean\". Co powinien w tej sytuacji zrobić polski operator? anten łączności z Europy",
+      "question": "74. Stacja z Włoch woła \"CQ DX, CQ DX beaming Pacific Ocean\". Co powinien w tej sytuacji zrobić polski operator?",
       "answers": [
         "a. natychmiast wołać!",
         "b. napisać wiadomość przy pomocy DX klastra z prośbą do stacji włoskiej o obrócenie",
-        "c."
+        "c. poszukać innych chętnych do łączności gdyż ta stacja nie oczekuje teraz łączności z Europy"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
-      "question": "75. Czy używanie znaków wywoławczych podczas łączności jest obowiązkowe? pozwalający potwierdzić przeprowadzoną łączność konsekwencji",
+      "question": "75. Czy używanie znaków wywoławczych podczas łączności jest obowiązkowe?",
       "answers": [
         "a. Nie, ale jest to ogólnie przyjęty dobry zwyczaj, pozytywnie świadczący o operatorze,",
-        "b.",
+        "b. Tak, transmisja sygnałów bez identyfikacji jest zabroniona",
         "c. Nie, można nie podawać znaków wywoławczych w krótkich łącznościach, beż żadnych"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     }
   ],
@@ -5216,13 +5262,13 @@
       "images": []
     },
     {
-      "question": "61. Prefiks kraju znajduje się specjalnymi stronami www",
+      "question": "61. Prefiks kraju znajduje się",
       "answers": [
-        "a.",
+        "a. na początku znaku wywoławczego stacji amatorskiej",
         "b. na końcu znaku stacji amatorskiej",
         "c. znak nie identyfikuje kraju dlatego musimy posługiwać się tzw. callbookiem lub"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
@@ -5230,69 +5276,69 @@
       "answers": [
         "a. HF",
         "b. 3Z",
-        "c."
+        "c. SR"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
       "question": "63. Który z prefiksów dotyczy krótkofalowca z Ameryki Północnej?",
       "answers": [
-        "a.",
+        "a. W",
         "b. BY",
         "c. G"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
-      "question": "64. Słyszysz stację z USA, która nadaje na 7220 kHz. Co to oznacza: znajduje się poza pasmem amatorskim w Polsce",
+      "question": "64. Słyszysz stację z USA, która nadaje na 7220 kHz. Co to oznacza:",
       "answers": [
         "a. stacja nadaje niezgodnie z przepisami",
-        "b.",
+        "b. Nie możesz odpowiedzieć na jej wywołanie na 7220 kHz, gdyż ta częstotliwość znajduje się poza pasmem amatorskim w Polsce",
         "c. ma uszkodzony nadajnik"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
-      "question": "65. Jakiej mocy powinny używać stacje radioamatorskie? większej jednak niż określona w pozwoleniu",
+      "question": "65. Jakiej mocy powinny używać stacje radioamatorskie?",
       "answers": [
         "a. Określonej w pozwoleniu",
-        "b.",
+        "b. Minimalnej, niezbędnej do zapewnienia zadowalającej jakości transmisji, nie większej jednak niż określona w pozwoleniu",
         "c. Dowolnej, nie większej jednak niż określona w pozwoleniu"
       ],
-      "correct": null,
+      "correct": 2,
       "images": []
     },
     {
-      "question": "66. Wyjeżdżasz na kilka dni z Polski do Niemiec. Czy możesz użyć swojej radiostacji, a jeśli tak, to jakiego użyjesz znaku? CEPT, do którego przyjechałeś)",
+      "question": "66. Wyjeżdżasz na kilka dni z Polski do Niemiec. Czy możesz użyć swojej radiostacji, a jeśli tak, to jakiego użyjesz znaku?",
       "answers": [
         "a. Nie możesz",
-        "b.",
+        "b. Możesz, poprzedzisz swój własny znak prefiksem DL (właściwym dla kraju CEPT, do którego przyjechałeś)",
         "c. Możesz, zamieniasz polski prefix na prefix kraju, do którego przyjechałeś"
       ],
-      "correct": null,
+      "correct": 1,
       "images": []
     },
     {
       "question": "67. Które z krajów nie należą do CEPT, ale nadal możesz stamtąd nadawać podczas krótkiej podróży po wypełnieniu rekomendacji T/R 61-01?",
       "answers": [
-        "a.",
+        "a. Stany Zjednoczone, Kanada, Izrael",
         "b. Arabia Saudyjska, Bahrajn, Irak",
         "c. Chiny, Korea Północna, Indie"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     },
     {
-      "question": "68. Czy na pasmach amatorskich możemy nadawać dowolne treści? fałszywych lub wprowadzających w błąd",
+      "question": "68. Czy na pasmach amatorskich możemy nadawać dowolne treści?",
       "answers": [
-        "a.",
+        "a. Nie, stacje mają zakaz transmisji sygnałów zbędnych, nieużytecznych, fałszywych lub wprowadzających w błąd",
         "b. Tak, jest to przywilej radioamatorów",
         "c. Nie, nie można nadawać komercyjnej muzyki oraz transmisji o charakterze religijnym"
       ],
-      "correct": null,
+      "correct": 0,
       "images": []
     }
   ]
