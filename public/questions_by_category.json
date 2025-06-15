@@ -71,10 +71,10 @@
       "images": []
     },
     {
-      "question": "8. Współczynnikiem skrócenia przewodu nazywamy: prędkości światła w próżni prędkości dźwięku w powietrzu",
+      "question": "8. Współczynnikiem skrócenia przewodu nazywamy:",
       "answers": [
-        "a. stosunek prędkości rozchodzenia się fali elektromagnetycznej w przewodzie do",
-        "b. stosunek prędkości rozchodzenia się fali elektromagnetycznej w przewodzie do",
+        "a. stosunek prędkości rozchodzenia się fali elektromagnetycznej w przewodzie do prędkości światła w próżni",
+        "b. stosunek prędkości rozchodzenia się fali elektromagnetycznej w przewodzie do prędkości dźwięku w powietrzu",
         "c. parametr wtyczki, określający o ile zostanie skrócony kabel po jej montażu"
       ],
       "correct": 0,
@@ -311,9 +311,9 @@
       "images": []
     },
     {
-      "question": "32. W jaki sposób w emisjach cyfrowych można zapewnić korekcję błędów spowodowanych zakłóceniami i zanikami w łączności radiowej: informacji",
+      "question": "32. W jaki sposób w emisjach cyfrowych można zapewnić korekcję błędów spowodowanych zakłóceniami i zanikami w łączności radiowej:",
       "answers": [
-        "a. przez wprowadzenie sumy kontrolnej CRC i ponowne wysyłanie tej samej",
+        "a. przez wprowadzenie sumy kontrolnej CRC i ponowne wysyłanie tej samej informacji",
         "b. robi to operator wprowadzając odpowiednią komendę do modemu",
         "c. nie wprowadza się korekcji, zaniki są naturalną cechą łączności cyfrowej"
       ],
@@ -461,11 +461,11 @@
       "images": []
     },
     {
-      "question": "47. Jakie zalety sprawiają, że filtry kwarcowe stosowane są w torze p. cz.? dobrej selektywności łatwą realizację funkcji automatycznej regulacji wzmocnienia podążający za częstotliwością VFO",
+      "question": "47. Jakie zalety sprawiają, że filtry kwarcowe stosowane są w torze p. cz.?",
       "answers": [
-        "a. duża stromość zboczy charakterystyki częstotliwościowej pozwala na uzyskanie",
-        "b. zafalowania charakterystyki częstotliwościowej w paśmie przenoszenia pozwalają na",
-        "c. łatwość budowy filtru o przestrajanej częstotliwości środkowej pozwala stworzyć filtr"
+        "a. duża stromość zboczy charakterystyki częstotliwościowej pozwala na uzyskanie dobrej selektywności",
+        "b. zafalowania charakterystyki częstotliwościowej w paśmie przenoszenia pozwalają na łatwą realizację funkcji automatycznej regulacji wzmocnienia",
+        "c. łatwość budowy filtru o przestrajanej częstotliwości środkowej pozwala stworzyć podążający za częstotliwością VFO"
       ],
       "correct": 0,
       "images": []
@@ -511,10 +511,10 @@
       "images": []
     },
     {
-      "question": "52. Pewien ręczny radiotelefon VHF/UHF pozbawiony jest filtrów pasmowych w torze wejściowym. Podczas aktywacji jednego ze szczytów w ramach programu SOTA okazało się, że nie można odebrać sygnałów korespondentów, pomimo wykorzystania dobrej anteny dookólnej. Czym może być spowodowane to zjawisko? radiowej na sąsiedniej górze",
+      "question": "52. Pewien ręczny radiotelefon VHF/UHF pozbawiony jest filtrów pasmowych w torze wejściowym. Podczas aktywacji jednego ze szczytów w ramach programu SOTA okazało się, że nie można odebrać sygnałów korespondentów, pomimo wykorzystania dobrej anteny dookólnej. Czym może być spowodowane to zjawisko?",
       "answers": [
         "a. rozpraszaniem sygnału na śladach jonizacyjnych meteorów (meteor scatter)",
-        "b. zmniejszeniem czułości odbiornika przez mocny sygnał nadajnika rozgłośni",
+        "b. zmniejszeniem czułości odbiornika przez mocny sygnał nadajnika rozgłośni radiowej na sąsiedniej górze",
         "c. silnymi podmuchami wiatru"
       ],
       "correct": 1,
@@ -551,17 +551,17 @@
       "images": []
     },
     {
-      "question": "56. Co oznacza pojęcie „stosunek przód-tył” w odniesieniu do anteny Yagi-Uda? do kierunku przeciwnego",
+      "question": "56. Co oznacza pojęcie „stosunek przód-tył” w odniesieniu do anteny Yagi-Uda?",
       "answers": [
         "a. stosunek liczby direktorów do reflektorów",
-        "b. stosunek mocy wypromieniowanej w kierunku głównego listka promieniowania",
+        "b. stosunek mocy wypromieniowanej w kierunku głównego listka promieniowania do kierunku przeciwnego",
         "c. stosunek mocy wypromieniowanej w przód anteny do dipola półfalowego"
       ],
       "correct": 1,
       "images": []
     },
     {
-      "question": "57. Współczynnik skrócenia kabla koncentrycznego to: próżn i",
+      "question": "57. Współczynnik skrócenia kabla koncentrycznego to:",
       "answers": [
         "a. stosunek prędkości rozchodzenia się fali w kablu do prędkości rozchodzenia w próżni",
         "b. stosunek długości kabla do jego średnicy",
@@ -571,11 +571,11 @@
       "images": []
     },
     {
-      "question": "58. Jakie znaczenie ma liczba plam słonecznych w odniesieniu do propagacji KF? prawdopodobieństwo dobrej propagacji na wyższych częstotliwościach wystąpienia sporadycznej propagacji przez warstwę E. żadnym paśmie",
+      "question": "58. Jakie znaczenie ma liczba plam słonecznych w odniesieniu do propagacji KF?",
       "answers": [
-        "a. wyższa liczba plam słonecznych generalnie wskazuje na większe",
-        "b. niższa liczba plam słonecznych ogólnie wskazuje na większe prawdopodobieństwo",
-        "c. zerowa liczba plam słonecznych oznacza, że propagacja radiowa nie jest możliwa w"
+        "a. wyższa liczba plam słonecznych generalnie wskazuje na większe prawdopodobieństwo dobrej propagacji na wyższych częstotliwościach",
+        "b. niższa liczba plam słonecznych ogólnie wskazuje na większe prawdopodobieństwo wystąpienia sporadycznej propagacji przez warstwę E.",
+        "c. zerowa liczba plam słonecznych oznacza, że propagacja radiowa nie jest możliwa w żadnym paśmie"
       ],
       "correct": 0,
       "images": []
@@ -601,11 +601,11 @@
       "images": []
     },
     {
-      "question": "61. Jaka jest przewaga wektorowego analizatora antenowego (VNA) nad miernikiem SWR (reflektometrem)? nadajnika badanej anteny oraz określić miejsce rezonansu",
+      "question": "61. Jaka jest przewaga wektorowego analizatora antenowego (VNA) nad miernikiem SWR (reflektometrem)?",
       "answers": [
         "a. miernik SWR wymaga określonej częstotliwości do działania",
-        "b. analizator nie potrzebuje dodatkowego zasilania zasilając się z sygnału w.cz z",
-        "c. analizator jest w stanie wykazać składową indukcyjną lub pojemnościową"
+        "b. analizator nie potrzebuje dodatkowego zasilania zasilając się z sygnału w.cz z nadajnika",
+        "c. analizator jest w stanie wykazać składową indukcyjną lub pojemnościową badanej anteny oraz określić miejsce rezonansu"
       ],
       "correct": 2,
       "images": []
@@ -1257,9 +1257,9 @@
       "images": []
     },
     {
-      "question": "123. Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika? om i obliczenie",
+      "question": "123. Jak w warunkach amatorskich zmierzyć moc wyjściową nadajnika?",
       "answers": [
-        "a. poprzez pomiar napięcia za pomocą sondy w.cz. na oporze sztucznej anteny 50",
+        "a. poprzez pomiar napięcia za pomocą sondy w.cz. na oporze sztucznej anteny 50 om i obliczenie",
         "b. poprzez pomiar prądu i napięcia stałego doprowadzonego do stopnia mocy (PA)",
         "c. poprzez uzyskanie raportu od korespondenta"
       ],
@@ -1277,10 +1277,10 @@
       "images": []
     },
     {
-      "question": "125. Jak zwalczyć zakłócenia rozprowadzane siecią energetyczną? konstrukcję urządzeń",
+      "question": "125. Jak zwalczyć zakłócenia rozprowadzane siecią energetyczną?",
       "answers": [
         "a. przez stosowanie grubych przewodów",
-        "b. przez stosowanie filtrów sieciowych, ekranowanie urządzeń i odpowiednią",
+        "b. przez stosowanie filtrów sieciowych, ekranowanie urządzeń i odpowiednią konstrukcję urządzeń",
         "c. przez zastosowanie zabezpieczenia różnicowoprądowego"
       ],
       "correct": 1,
@@ -2301,11 +2301,11 @@
       "images": []
     },
     {
-      "question": "219. Co to jest strefa martwa na falach krótkich? odbitej od jonosfery kierunków",
+      "question": "219. Co to jest strefa martwa na falach krótkich?",
       "answers": [
-        "a. strefa bez odbioru leżąca pomiędzy końcem fali przyziemnej a powrotem fali",
+        "a. strefa bez odbioru leżąca pomiędzy końcem fali przyziemnej a powrotem fali odbitej od jonosfery",
         "b. strefa bez odbioru z powodu dużych zakłóceń w mieście",
-        "c. strefa w której brak odbioru z powodu interferencji fal przychodzących z różnych"
+        "c. strefa w której brak odbioru z powodu interferencji fal przychodzących z różnych kierunków"
       ],
       "correct": 0,
       "images": []
@@ -2521,7 +2521,7 @@
       "images": []
     },
     {
-      "question": "241. W przetwornikach analogowo-cyfrowych, aby poprawnie odczytać sygnał wejściowy, częstotliwość próbkowania musi być: sygnału",
+      "question": "241. W przetwornikach analogowo-cyfrowych, aby poprawnie odczytać sygnał wejściowy, częstotliwość próbkowania musi być:",
       "answers": [
         "a. większa lub równa dwukrotności najwyższej częstotliwości przetwarzanego sygnału",
         "b. większa lub równa najwyższej częstotliwości przetwarzanego sygnału",
@@ -2581,7 +2581,7 @@
       "images": []
     },
     {
-      "question": "247. Do budowy cewek często wykorzystujemy rdzenie toroidalne, ponieważ: inne elementy",
+      "question": "247. Do budowy cewek często wykorzystujemy rdzenie toroidalne, ponieważ:",
       "answers": [
         "a. wprowadzają mniejsze straty w polu magnetycznym niż powietrze",
         "b. można przez cewkę przesłać znacznie większy prąd",
@@ -2730,8 +2730,7 @@
         "c. reaktancję indukcyjną"
       ],
       "correct": 0,
-      "images": [
-      ]
+      "images": []
     },
     {
       "question": "262. Jeżeli dobroć obwodu rezonansowego Q = 100, to pasmo przy częstotliwości obwodu 14 MHz ma szerokość:",
@@ -3036,11 +3035,11 @@
       "images": []
     },
     {
-      "question": "292. Zamierzasz zrobić łączność z kolegą znajdującym się we Włoszech przy pomocy dipola półfalowego na paśmie 20 m. W jakim kierunku najlepiej powiesić tę antenę? Uda",
+      "question": "292. Zamierzasz zrobić łączność z kolegą znajdującym się we Włoszech przy pomocy dipola półfalowego na paśmie 20 m. W jakim kierunku najlepiej powiesić tę antenę?",
       "answers": [
         "a. na osi północ-południe",
         "b. na osi wschód-zachód",
-        "c. nie użyję dipola, gdyż łączność będzie trudno nawiązać bez anteny kierunkowej Yagi-"
+        "c. nie użyję dipola, gdyż łączność będzie trudno nawiązać bez anteny kierunkowej Yagi-Uda"
       ],
       "correct": 1,
       "images": []
@@ -3056,10 +3055,10 @@
       "images": []
     },
     {
-      "question": "294. Kabel koncentryczny po przytrzaśnięciu oknem uległ spłaszczeniu. Jak można go naprawić? wyciekowi w.cz fragment oraz wykorzystać pozostałe odcinki przewodu",
+      "question": "294. Kabel koncentryczny po przytrzaśnięciu oknem uległ spłaszczeniu. Jak można go naprawić?",
       "answers": [
         "a. należy zabezpieczyć uszkodzony fragment taśmą izolacyjną",
-        "b. należy zastosować ekran miedziany na uszkodzonym fragmencie w celu zapobiegania",
+        "b. należy zastosować ekran miedziany na uszkodzonym fragmencie w celu zapobiegania wyciekowi w.cz",
         "c. ten fragment kabla nie nadaje się do użytku, można wyciąć uszkodzony fragment oraz wykorzystać pozostałe odcinki przewodu"
       ],
       "correct": 2,
@@ -3146,7 +3145,7 @@
       "images": []
     },
     {
-      "question": "303. Częstotliwość krytyczna w radiokomunikacji amatorskiej to: ziemi",
+      "question": "303. Częstotliwość krytyczna w radiokomunikacji amatorskiej to:",
       "answers": [
         "a. początek i koniec każdego pasma amatorskiego",
         "b. częstotliwość zarezerwowana do łączności niebezpieczeństwa",
@@ -3246,7 +3245,7 @@
       "images": []
     },
     {
-      "question": "313. Pewnego dnia po wysokiej aktywności słonecznej pewien krótkofalowiec usłyszał w paśmie 144 MHz kilka mocno zniekształconych sygnałów dalekich stacji. z trudem odebrał wywołanie “CQ aurora” z czym miał do czynienia?",
+      "question": "313. Pewnego dnia po wysokiej aktywności słonecznej pewien krótkofalowiec usłyszał w paśmie 144 MHz kilka mocno zniekształconych sygnałów dalekich stacji. Z trudem odebrał wywołanie “CQ aurora” z czym miał do czynienia?",
       "answers": [
         "a. rosyjskie zawody z okazji wybuchu rewolucji październikowej",
         "b. łącznościami z wykorzystaniem zorzy polarnej",
@@ -3296,7 +3295,7 @@
       "images": []
     },
     {
-      "question": "318. Szumy własne odbiornika mają: tam bardzo słaby",
+      "question": "318. Szumy własne odbiornika mają:",
       "answers": [
         "a. znaczenie na paśmie 80 m, by odebrać sygnał słabej stacji",
         "b. znaczenie na falach ultrakrótkich i mikrofalach, gdyż szum atmosferyczny jest tam bardzo słaby",
@@ -3336,11 +3335,11 @@
       "images": []
     },
     {
-      "question": "322. Podczas prowadzenia łączności kierujemy się zasadą: łączność",
+      "question": "322. Podczas prowadzenia łączności kierujemy się zasadą:",
       "answers": [
         "a. minimalnej mocy nadajnika, niezbędnej dla danej łączności",
         "b. pracy z maksymalną mocą nadajnika",
-        "c. doboru mocy nadajnika do ograniczeń licencyjnych w kraju, z którym nawiązujemy"
+        "c. doboru mocy nadajnika do ograniczeń licencyjnych w kraju, z którym nawiązujemy łączność"
       ],
       "correct": 0,
       "images": []
@@ -3356,7 +3355,7 @@
       "images": []
     },
     {
-      "question": "324. Bocznik do pomiaru prądu powinien mieć: pomiarowego",
+      "question": "324. Bocznik do pomiaru prądu powinien mieć:",
       "answers": [
         "a. maksymalną rezystancję",
         "b. minimalną rezystancję",
@@ -3376,7 +3375,7 @@
       "images": []
     },
     {
-      "question": "326. Multimetr na zakresie napięcia prądu przemiennego został dołączony do układu elektronicznego. Co może być przyczyną niewłaściwych odczytów (zbyt niskich lub zbyt wysokich): w.cz.",
+      "question": "326. Multimetr na zakresie napięcia prądu przemiennego został dołączony do układu elektronicznego. Co może być przyczyną niewłaściwych odczytów (zbyt niskich lub zbyt wysokich):",
       "answers": [
         "a. uziemienie woltomierza,",
         "b. woltomierz jest przystosowany do częstotliwości 50Hz, a w obwodzie jest sygnał w.cz.",
@@ -3426,17 +3425,17 @@
       "images": []
     },
     {
-      "question": "331. Ręczny radiotelefon niskiej jakości został dołączony do zewnętrznej anteny i słyszalność stacji uległa znacznemu pogorszeniu. Jakie zjawisko może być tego przyczyną: amatorskich 2 m",
+      "question": "331. Ręczny radiotelefon niskiej jakości został dołączony do zewnętrznej anteny i słyszalność stacji uległa znacznemu pogorszeniu. Jakie zjawisko może być tego przyczyną:",
       "answers": [
         "a. brak odpowiedniego przedwzmacniacza w.cz.",
         "b. blokowanie odbiornika przez bardzo silne sygnały, także spoza pasm amatorskich",
-        "c. uszkodzenie odbiornika spowodowane sygnałem pobliskiego przemiennika w paśmie"
+        "c. uszkodzenie odbiornika spowodowane sygnałem pobliskiego przemiennika w paśmie 2 m"
       ],
       "correct": 1,
       "images": []
     },
     {
-      "question": "332. Jakie zjawisko jest odpowiedzialne za zakłócenia słyszalne w radioodbiorniku jako dziwne dźwięki nałożone na sygnał stacji radiofonicznej FM: akustycznej odbiornika",
+      "question": "332. Jakie zjawisko jest odpowiedzialne za zakłócenia słyszalne w radioodbiorniku jako dziwne dźwięki nałożone na sygnał stacji radiofonicznej FM:",
       "answers": [
         "a. intermodulacja w obwodach wejściowych odbiornika FM",
         "b. rozstrajanie generatora zadającego w syntezerze w odbiorniku FM",
@@ -3476,7 +3475,7 @@
       "images": []
     },
     {
-      "question": "336. Krótkofalowiec zbudował skrzynkę antenową, ale przy pracy z tą skrzynką obserwuje słabe świecenie nie zasilanej świetlówki, które nie występuje po odłączeniu skrzynki. Co może wykonać, by to zjawisko wyeliminować? obudowy",
+      "question": "336. Krótkofalowiec zbudował skrzynkę antenową, ale przy pracy z tą skrzynką obserwuje słabe świecenie nie zasilanej świetlówki, które nie występuje po odłączeniu skrzynki. Co może wykonać, by to zjawisko wyeliminować?",
       "answers": [
         "a. wprowadzić ekranowanie skrzynki, na przykład w postaci szczelnej, metalowej obudowy",
         "b. poprawić dopasowanie stopnia końcowego",
@@ -3518,10 +3517,10 @@
       "images": []
     },
     {
-      "question": "2. Które z poniższych środków ostrożności należy podjąć podczas pomiaru wysokiego napięcia za pomocą woltomierza? spodziewanych poziomach napięć",
+      "question": "2. Które z poniższych środków ostrożności należy podjąć podczas pomiaru wysokiego napięcia za pomocą woltomierza?",
       "answers": [
         "a. upewnij się, że woltomierz ma bardzo niską impedancję",
-        "b. upewnij się, że woltomierz i przewody są przystosowane do użytku przy",
+        "b. upewnij się, że woltomierz i przewody są przystosowane do użytku przy spodziewanych poziomach napięć",
         "c. upewnij się, że obwód jest uziemiony przez woltomierz"
       ],
       "correct": 1,
@@ -3548,10 +3547,10 @@
       "images": []
     },
     {
-      "question": "5. Dlaczego stosuje się ograniczenia w przebywaniu (zamieszkaniu) w bezpośrednim sąsiedztwie dużych obiektów nadawczych radiowych i telewizyjnych? negatywny wpływ na zdrowie",
+      "question": "5. Dlaczego stosuje się ograniczenia w przebywaniu (zamieszkaniu) w bezpośrednim sąsiedztwie dużych obiektów nadawczych radiowych i telewizyjnych?",
       "answers": [
         "a. ze względu na wyładowania atmosferyczne",
-        "b. ze względu na duże natężenie pola elektromagnetycznego mogące mieć",
+        "b. ze względu na duże natężenie pola elektromagnetycznego mogące mieć negatywny wpływ na zdrowie",
         "c. ze względu na możliwość przewrócenia się masztu"
       ],
       "correct": 1,
@@ -3658,10 +3657,10 @@
       "images": []
     },
     {
-      "question": "16. Czy plastikowa obudowa urządzenia nadawczego stanowi odpowiednie zabezpieczenie przed oddziaływaniem energii w.cz.? jest potrzebne",
+      "question": "16. Czy plastikowa obudowa urządzenia nadawczego stanowi odpowiednie zabezpieczenie przed oddziaływaniem energii w.cz.?",
       "answers": [
         "a. jest to wystarczające zabezpieczenie przed energią w.cz.",
-        "b. urządzenia tego używa się głównie na terenowym QTH więc takie zabezpieczenie nie",
+        "b. urządzenia tego używa się głównie na terenowym QTH więc takie zabezpieczenie nie jest potrzebne",
         "c. nie stanowi żadnego zabezpieczenia przed energią w.cz."
       ],
       "correct": 2,
@@ -3718,11 +3717,11 @@
       "images": []
     },
     {
-      "question": "22. Narzędzia do prac elektrycznych powinny: napięciu pracy np. 500 V",
+      "question": "22. Narzędzia do prac elektrycznych powinny:",
       "answers": [
         "a. charakteryzować się estetyką wykonania",
         "b. posiadać homologację Ministerstwa Łączności",
-        "c."
+        "c. posiadać izolowane uchwyty z nadrukowaną informacją o dopuszczalnym napięciu pracy np. 500 V"
       ],
       "correct": 2,
       "images": []
@@ -3748,31 +3747,31 @@
       "images": []
     },
     {
-      "question": "25. W momencie stwierdzenia pożaru urządzenia należy: pożarną",
+      "question": "25. W momencie stwierdzenia pożaru urządzenia należy:",
       "answers": [
         "a. zadzwonić po straż pożarną",
         "b. wezwać kolegów i wspólnie przystąpić do gaszenia",
-        "c. odłączyć zasilanie i przystąpić do gaszenia, w razie potrzeby wezwać straż"
+        "c. odłączyć zasilanie i przystąpić do gaszenia, w razie potrzeby wezwać straż pożarną"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "26. Transformator ochronny stosujemy, gdy: spowodować porażenie prądem, np. pracując na zewnątrz pomieszczeń porażenia prądem np. przy pracach naprawczych",
+      "question": "26. Transformator ochronny stosujemy, gdy:",
       "answers": [
-        "a. zachodzi obawa, że użycie narzędzi elektrycznych zasilanych napięciem 230 V może",
+        "a. zachodzi obawa, że użycie narzędzi elektrycznych zasilanych napięciem 230 V może spowodować porażenie prądem, np. pracując na zewnątrz pomieszczeń",
         "b. wykonujemy prace w wilgotnym pomieszczeniu",
-        "c. jak w punkcie A i B i w innych sytuacjach, jeżeli zachodzi niebezpieczeństwo"
+        "c. jak w punkcie A i B i w innych sytuacjach, jeżeli zachodzi niebezpieczeństwo porażenia prądem np. przy pracach naprawczych"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "27. W przypadku zaprószenia oka ciałem obcym należy: skorzystać z pomocy lekarza",
+      "question": "27. W przypadku zaprószenia oka ciałem obcym należy:",
       "answers": [
         "a. odczekać aż ciało obce samo wypadnie",
         "b. usunąć ciało obce samodzielnie za pomocą pęsety",
-        "c. spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się to nie uda"
+        "c. spróbować usunąć obce ciało, przemywając oko wodą, a jeżeli się to nie uda skorzystać z pomocy lekarza"
       ],
       "correct": 2,
       "images": []
@@ -3788,11 +3787,11 @@
       "images": []
     },
     {
-      "question": "29. Przygotowując się do wykonania prac pod napięciem, oprócz przygotowania odpowiednich przyrządów należy: osoby",
+      "question": "29. Przygotowując się do wykonania prac pod napięciem, oprócz przygotowania odpowiednich przyrządów należy:",
       "answers": [
         "a. sprawdzić czy zastosowano prawidłowe bezpieczniki w mierzonych obwodach",
         "b. przygotować schemat elektryczny urządzenia i zapoznać się z nim",
-        "c. jak w punkcie A i B oraz zapewnić sobie obecność i ewentualną pomoc drugiej"
+        "c. jak w punkcie A i B oraz zapewnić sobie obecność i ewentualną pomoc drugiej osoby"
       ],
       "correct": 2,
       "images": []
@@ -3858,11 +3857,11 @@
       "images": []
     },
     {
-      "question": "36. Podczas regulacji urządzeń pod napięciem (o ile jest to konieczne) pracę wykonujemy: lub obuwia izolacyjnego",
+      "question": "36. Podczas regulacji urządzeń pod napięciem (o ile jest to konieczne) pracę wykonujemy:",
       "answers": [
         "a. dwoma rękoma",
         "b. jedną ręką",
-        "c. jedną ręką w asyście drugiej osoby, wskazane jest również stosowanie chodnika"
+        "c. jedną ręką w asyście drugiej osoby, wskazane jest również stosowanie chodnika lub obuwia izolacyjnego"
       ],
       "correct": 2,
       "images": []
@@ -3920,11 +3919,11 @@
       "images": []
     },
     {
-      "question": "2. Czy operator może przejść na nadawanie niezwłocznie po wybraniu częstotliwości pracy? pracy innych użytkowników",
+      "question": "2. Czy operator może przejść na nadawanie niezwłocznie po wybraniu częstotliwości pracy?",
       "answers": [
         "a. może od razu nadawać",
         "b. może nadawać lecz ze zredukowaną mocą",
-        "c. najpierw powinien upewnić się iż częstotliwość jest wolna i nie będzie zakłócał"
+        "c. najpierw powinien upewnić się iż częstotliwość jest wolna i nie będzie zakłócał pracy innych użytkowników"
       ],
       "correct": 2,
       "images": []
@@ -3960,20 +3959,20 @@
       "images": []
     },
     {
-      "question": "6. Co należy do dobrej praktyki amatorskiej, jeśli propagacja zmienia się podczas trwania łączności i zauważysz zakłócenia ze strony innych stacji na swojej częstotliwości? akceptowalny dla obu stron z poszanowaniem norm społecznych",
+      "question": "6. Co należy do dobrej praktyki amatorskiej, jeśli propagacja zmienia się podczas trwania łączności i zauważysz zakłócenia ze strony innych stacji na swojej częstotliwości?",
       "answers": [
         "a. powiedz stacjom powodującym zakłócenia, aby zmieniły częstotliwość",
-        "b. spróbować rozwiązać problem zakłóceń z innymi stacjami w sposób",
+        "b. spróbować rozwiązać problem zakłóceń z innymi stacjami w sposób akceptowalny dla obu stron z poszanowaniem norm społecznych",
         "c. zwiększ moc, aby nasz sygnał był silniejszy od zakłócającego"
       ],
       "correct": 1,
       "images": []
     },
     {
-      "question": "7. Co należy zrobić w pierwszej kolejności, jeśli komunikujesz się z inną stacją amatorską i słyszysz stację w niebezpieczeństwie? potrzebuje",
+      "question": "7. Co należy zrobić w pierwszej kolejności, jeśli komunikujesz się z inną stacją amatorską i słyszysz stację w niebezpieczeństwie?",
       "answers": [
         "a. kontynuować łączność, ponieważ byłeś pierwszy na częstotliwości",
-        "b. potwierdzić że słyszymy stację wołającą o pomoc oraz ustalić jakiej pomocy",
+        "b. potwierdzić że słyszymy stację wołającą o pomoc oraz ustalić jakiej pomocy potrzebuje",
         "c. zmienić częstotliwość na inną"
       ],
       "correct": 1,
@@ -4150,29 +4149,29 @@
       "images": []
     },
     {
-      "question": "25. Czy od razu, po zdaniu egzaminu na pozwolenie radioamatorskie można samodzielnie obsługiwać stację amatorską? pozwolenie radiowe",
+      "question": "25. Czy od razu, po zdaniu egzaminu na pozwolenie radioamatorskie można samodzielnie obsługiwać stację amatorską?",
       "answers": [
         "a. można, ale tylko pod nadzorem radioamatora posiadającego pozwolenie radiowe",
         "b. można, w określonych w pozwoleniu radiowym zakresach częstotliwości",
-        "c. nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie"
+        "c. nie można, ponieważ do obsługi stacji amatorskiej upoważnia jedynie pozwolenie radiowe"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "26. Co to jest znak wywoławczy? stacji amatorskiej",
+      "question": "26. Co to jest znak wywoławczy?",
       "answers": [
         "a. jest to symbol określający typ (model) stacji amatorskiej",
         "b. jest to hasło pozwalające wywołać konkretnego rozmówcę",
-        "c. jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator"
+        "c. jest to kombinacja liter i cyfr stanowiąca unikalny w skali światowej identyfikator stacji amatorskiej"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "27. Czym jest LOG? innymi radiostacjami amatorskimi",
+      "question": "27. Czym jest LOG?",
       "answers": [
-        "a. jest to dziennik stacji amatorskiej zawierający informacje o korespondencji z",
+        "a. jest to dziennik stacji amatorskiej zawierający informacje o korespondencji z innymi radiostacjami amatorskimi",
         "b. jest to informacja o procedurach obowiązujących podczas łączności z innymi stacjami",
         "c. jest to informacja o kontroli radiostacji przez inspektorów UKE"
       ],
@@ -4180,19 +4179,19 @@
       "images": []
     },
     {
-      "question": "28. Czy prowadzenie dziennika łączności jest obowiązkowe? inspektorów ochrony środowiska",
+      "question": "28. Czy prowadzenie dziennika łączności jest obowiązkowe?",
       "answers": [
         "a. jest to podstawowy obowiązek każdego radioamatora",
         "b. prowadzenie dziennika łączności nie jest obowiązkowe, lecz wskazane",
-        "c. prowadzenie dziennika łączności może być nakazane jako zalecenie pokontrolne"
+        "c. prowadzenie dziennika łączności może być nakazane jako zalecenie pokontrolne inspektorów ochrony środowiska"
       ],
       "correct": 1,
       "images": []
     },
     {
-      "question": "29. Co znaczy określenie czas uniwersalny UTC? radioamatorów do odnotowania w logu godz. łączności",
+      "question": "29. Co znaczy określenie czas uniwersalny UTC?",
       "answers": [
-        "a. czas odpowiadający południkowi zerowemu (GMT), stosowany przez",
+        "a. czas odpowiadający południkowi zerowemu (GMT), stosowany przez radioamatorów do odnotowania w logu godz. łączności",
         "b. czas w którym nie należy nawiązywać QSO",
         "c. czas w którym można nawiązywać łączności z krajami europejskimi"
       ],
@@ -4200,9 +4199,9 @@
       "images": []
     },
     {
-      "question": "30. Co to jest międzynarodowy kod Q? którym przypisane są proste zdanie lub słowa",
+      "question": "30. Co to jest międzynarodowy kod Q?",
       "answers": [
-        "a. zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q,",
+        "a. zbiór symboli składających się z 3 liter, zaczynających się zawsze na literę Q, którym przypisane są proste zdanie lub słowa",
         "b. symbole składające się z litery Q i 2-3 cyfr określających jakość odbieranego sygnału",
         "c. wykaz zawierający prefiksy znaków wywoławczych wg ITU"
       ],
@@ -4470,20 +4469,20 @@
       "images": []
     },
     {
-      "question": "57. Co to jest raport R S stosowany podczas łączności fonicznych? wyrażana w postaci cyfr",
+      "question": "57. Co to jest raport R S stosowany podczas łączności fonicznych?",
       "answers": [
         "a. informacja o stanie technicznym radiostacji",
         "b. informacja o stanie pogody przekazana w postaci zakodowanej",
-        "c. informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału"
+        "c. informacja o jakości odbieranego sygnału radiowego - czytelności i sił sygnału wyrażana w postaci cyfr"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "58. Co to jest raport R S T stosowany podczas łączności telegraficznych? akustycznego sygnału",
+      "question": "58. Co to jest raport R S T stosowany podczas łączności telegraficznych?",
       "answers": [
         "a. informacja o stanie technicznym radiostacji",
-        "b. informacja o jakości odbieranego sygnału radiowego - czytelności, siły i tonu",
+        "b. informacja o jakości odbieranego sygnału radiowego - czytelności, siły i tonu akustycznego sygnału",
         "c. informacja o stanie pogody"
       ],
       "correct": 1,
@@ -4580,11 +4579,11 @@
       "images": []
     },
     {
-      "question": "68. Transmisja prowadzona w sposób sprzeczny z bandplanem IARU jest: znaczenia wśród krótkofalowców",
+      "question": "68. Transmisja prowadzona w sposób sprzeczny z bandplanem IARU jest:",
       "answers": [
         "a. Naruszeniem prawa i może powodować utratę pozwolenia i konsekwencje karne",
-        "b. Jest całkowicie dopuszczalna, bandplan IARU nie ma współcześnie poważnego",
-        "c. Jest dopuszczalna ale stanowi naruszenie dobrych obyczajów panujących"
+        "b. Jest całkowicie dopuszczalna, bandplan IARU nie ma współcześnie poważnego znaczenia",
+        "c. Jest dopuszczalna ale stanowi naruszenie dobrych obyczajów panujących wśród krótkofalowców"
       ],
       "correct": 2,
       "images": []
@@ -4600,11 +4599,11 @@
       "images": []
     },
     {
-      "question": "70. Bandplan IARU jest: Tablicy Przeznaczeń Częstotliwości",
+      "question": "70. Bandplan IARU jest:",
       "answers": [
         "a. zaleceniem IARU",
         "b. przepisem powszechnie obowiązującym",
-        "c. wydawaną przez IARU dyrektywą wprowadzaną do porządku krajowego w Krajowej"
+        "c. wydawaną przez IARU dyrektywą wprowadzaną do porządku krajowego w Krajowej Tablicy Przeznaczeń Częstotliwości"
       ],
       "correct": 0,
       "images": []
@@ -4682,10 +4681,10 @@
       "images": []
     },
     {
-      "question": "3. Słysząc na częstotliwości 3712 kHz rozmowę dwóch stacji, które nie są stacjami amatorskimi należy: amatorskim",
+      "question": "3. Słysząc na częstotliwości 3712 kHz rozmowę dwóch stacji, które nie są stacjami amatorskimi należy:",
       "answers": [
         "a. bezwzględnie nakazać przerwanie rozmowy, ponieważ jest to pasmo amatorskie",
-        "b. zgłosić do Urzędu Komunikacji Elektronicznej fakt nieuprawnionej transmisji w paśmie",
+        "b. zgłosić do Urzędu Komunikacji Elektronicznej fakt nieuprawnionej transmisji w paśmie amatorskim",
         "c. nie robić nic"
       ],
       "correct": 2,
@@ -4812,21 +4811,21 @@
       "images": []
     },
     {
-      "question": "16. W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej? Częstotliwości",
+      "question": "16. W jakim dokumencie określone są zakresy częstotliwości przeznaczone w Polsce dla służby amatorskiej i służby amatorskiej satelitarnej?",
       "answers": [
         "a. w ustawie Prawo komunikacji elektronicznej",
-        "b. w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń",
+        "b. w rozporządzeniu Rady Ministrów w sprawie Krajowej Tablicy Przeznaczeń Częstotliwości",
         "c. w decyzjach Prezesa Urzędu Komunikacji Elektronicznej"
       ],
       "correct": 1,
       "images": []
     },
     {
-      "question": "17. Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba pierwszej ważności oznacza, że: ważności samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie",
+      "question": "17. Czy stosowane w Krajowej Tablicy Przeznaczeń Częstotliwości określenie służba pierwszej ważności oznacza, że:",
       "answers": [
-        "a. służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej",
-        "b. służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej",
-        "c. służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony"
+        "a. służba taka jest chroniona przed szkodliwymi zakłóceniami ze strony służb drugiej ważności",
+        "b. służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie",
+        "c. służba taka może żądać ochrony przed szkodliwymi zakłóceniami ze strony stacji tej samej lub innych służb, którym częstotliwości mogą zostać przydzielone w późniejszym terminie, służba taka nie może powodować szkodliwych zakłóceń w pracy stacji służb pierwszej ważności, którym przydzielono częstotliwości lub mogą być przydzielone w późniejszym terminie"
       ],
       "correct": 2,
       "images": []
@@ -4912,9 +4911,9 @@
       "images": []
     },
     {
-      "question": "26. Jaka jest moc maksymalna wyjściowa stacji amatorskiej w przypadku pozwolenia kategorii 5? MHz",
+      "question": "26. Jaka jest moc maksymalna wyjściowa stacji amatorskiej w przypadku pozwolenia kategorii 5?",
       "answers": [
-        "a. 50 watów dla nadajnika poniżej 30 MHz a 15 watów dla nadajnika powyżej 30",
+        "a. 50 watów dla nadajnika poniżej 30 MHz a 15 watów dla nadajnika powyżej 30 MHz",
         "b. 50 watów",
         "c. 150 watów"
       ],
@@ -4932,20 +4931,20 @@
       "images": []
     },
     {
-      "question": "28. W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1? radiokomunikacyjnej amatorskiej na terytorium RP",
+      "question": "28. W jakich zakresach krótkofalowych może pracować operator posiadający pozwolenie kategorii 1?",
       "answers": [
         "a. 3500 - 3800 kHz oraz 7000 - 7300 kHz",
         "b. 7000 - 7100 kHz oraz 28000 - 29900 kHz",
-        "c. we wszystkich zakresach częstotliwości przeznaczonych dla służby"
+        "c. we wszystkich zakresach częstotliwości przeznaczonych dla służby radiokomunikacyjnej amatorskiej na terytorium RP"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "29. W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3? 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz",
+      "question": "29. W jakich zakresach częstotliwości może pracować operator posiadający pozwolenie kategorii 3?",
       "answers": [
         "a. 28000-29900 kHz oraz 144-146 MHz",
-        "b. 1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz,",
+        "b. 1,81-2 MHz; 3,5-3,8 MHz; 7-7,2 MHz; 14-14,35 MHz; 21-21,45 MHz; 28-29,7 MHz, 144-146 MHz; 430-440 MHz oraz 10-10,5 GHz",
         "c. 28000-29900 kHz oraz 430-440 MHz"
       ],
       "correct": 1,
@@ -4962,11 +4961,11 @@
       "images": []
     },
     {
-      "question": "31. Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7-137,8 kHz? promieniowana izotropowo)",
+      "question": "31. Jakimi rodzajami emisji radiowych i z jaką mocą wolno pracować operatorowi w służbie amatorskiej w zakresie częstotliwości 135,7-137,8 kHz?",
       "answers": [
         "a. wyłącznie emisją A1A (telegrafia) z mocą wyjściową 150 watów",
         "b. wszystkimi rodzajami emisji z mocą wyjściową 250 watów",
-        "c. wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc"
+        "c. wyłącznie emisją A1A (telegrafia) z mocą 1 wat e.i.r.p. (równoważna moc promieniowana izotropowo)"
       ],
       "correct": 2,
       "images": []
@@ -4982,31 +4981,31 @@
       "images": []
     },
     {
-      "question": "33. Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej? wiadomość zawiera istotne dla funkcjonowania Państwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę administracji publicznej",
+      "question": "33. Jak powinien postąpić operator stacji amatorskiej w razie przypadkowego odebrania wiadomości nie przeznaczonej dla służby amatorskiej?",
       "answers": [
         "a. rozpowszechnić odebraną wiadomość w internecie",
         "b. zachować treść wiadomości w ścisłej tajemnicy",
-        "c. zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana"
+        "c. zachować treść wiadomości w ścisłej tajemnicy, zaś w przypadku gdy odebrana wiadomość zawiera istotne dla funkcjonowania Państwa lub porządku publicznego informacje - powiadomić najbliższą jednostkę administracji publicznej"
       ],
       "correct": 2,
       "images": []
     },
     {
-      "question": "34. Jak często operator stacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji? końcu łączności",
+      "question": "34. Jak często operator stacji amatorskiej powinien podawać podczas łączności znak wywoławczy swej stacji?",
       "answers": [
         "a. co pół godziny",
-        "b. tak często, jak jest to w praktyce możliwe, przede wszystkim na początku i",
+        "b. tak często, jak jest to w praktyce możliwe, przede wszystkim na początku i końcu łączności",
         "c. nie musi podawać znaku wywoławczego"
       ],
       "correct": 1,
       "images": []
     },
     {
-      "question": "35. Stacja amatorska oznacza: systemami antenowymi niezbędne do wykonywania w jednej lokalizacji służby radiokomunikacyjnej amatorskiej prawnej, której wydano pozwolenie w służbie radiokomunikacyjnej amatorskiej odbiorcze wraz z  systemem albo systemami antenowymi",
+      "question": "35. Stacja amatorska oznacza:",
       "answers": [
-        "a. urządzenia radiowe nadawcze lub nadawczo-odbiorcze wraz z  systemem albo",
-        "b. Osobę fizyczną, prawną lub jednostkę organizacyjną nieposiadającą osobowości",
-        "c. Lokalizację w której znajdują się urządzenia radiowe nadawcze lub nadawczo-"
+        "a. urządzenia radiowe nadawcze lub nadawczo-odbiorcze wraz z systemem albo systemami antenowymi niezbędne do wykonywania w jednej lokalizacji służby radiokomunikacyjnej amatorskiej",
+        "b. Osobę fizyczną, prawną lub jednostkę organizacyjną nieposiadającą osobowości prawnej, której wydano pozwolenie w służbie radiokomunikacyjnej amatorskiej",
+        "c. Lokalizację w której znajdują się urządzenia radiowe nadawcze lub nadawczo-odbiorcze wraz z systemem albo systemami antenowymi"
       ],
       "correct": 0,
       "images": []
@@ -5022,11 +5021,11 @@
       "images": []
     },
     {
-      "question": "37. Czy pozwolenie kategorii 1 może być wydawane fundacjom lub stowarzyszeniom? terenowej jednostce organizacyjnej stowarzyszenia posiadającego osobowość prawną, a także stowarzyszeniu zwykłemu posiadającym osobowość prawną",
+      "question": "37. Czy pozwolenie kategorii 1 może być wydawane fundacjom lub stowarzyszeniom?",
       "answers": [
-        "a. tak, pozwolenia kategorii 1 mogą być wydawane osobie prawnej, w tym",
+        "a. tak, pozwolenia kategorii 1 mogą być wydawane osobie prawnej, w tym terenowej jednostce organizacyjnej stowarzyszenia posiadającego osobowość prawną, a także stowarzyszeniu zwykłemu",
         "b. nie, pozwolenia mogą być wydawane jedynie osobom fizycznym",
-        "c. tak, pozwolenia kategorii 1 mogą być wydawane fundacjom i stowarzyszeniom"
+        "c. tak, pozwolenia kategorii 1 mogą być wydawane fundacjom i stowarzyszeniom posiadającym osobowość prawną"
       ],
       "correct": 0,
       "images": []
@@ -5042,9 +5041,9 @@
       "images": []
     },
     {
-      "question": "39. Czy prowadzenie papierowego dziennika łączności jest obowiązkowe? dokumentu",
+      "question": "39. Czy prowadzenie papierowego dziennika łączności jest obowiązkowe?",
       "answers": [
-        "a. tak, obowiązkowe jest prowadzenie dziennika łączności w formie fizycznego",
+        "a. tak, obowiązkowe jest prowadzenie dziennika łączności w formie fizycznego dokumentu",
         "b. nie, obowiązkowy dziennik łączności może być prowadzony także elektronicznie",
         "c. nie, dziennik łączności nie jest wymagany"
       ],
@@ -5052,10 +5051,10 @@
       "images": []
     },
     {
-      "question": "40. Jakie należy spełnić warunki aby uzyskać pozwolenie radiowe na używanie stacji amatorskiej? praktykę na stacji klubowej wykształcenie",
+      "question": "40. Jakie należy spełnić warunki aby uzyskać pozwolenie radiowe na używanie stacji amatorskiej?",
       "answers": [
-        "a. należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną",
-        "b. należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie",
+        "a. należy posiadać świadectwo operatora urządzeń radiowych i odbyć trzymiesięczną praktykę na stacji klubowej",
+        "b. należy posiadać świadectwo operatora urządzeń radiowych i co najmniej średnie wykształcenie",
         "c. należy posiadać świadectwo operatora urządzeń radiowych"
       ],
       "correct": 2,
