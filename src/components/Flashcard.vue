@@ -131,13 +131,14 @@ watch(flipped, () => {
 @media (max-width: 600px) {
   .card-surface {
     min-width: 0;
-    max-width: 98vw;
+    max-width: 96vw;
+    width: 96vw;
     padding: 1rem 0.5rem;
   }
   .flip-card-inner {
     min-width: 0;
-    width: 98vw;
-    max-width: 98vw;
+    width: 96vw;
+    max-width: 96vw;
   }
 }
 </style>

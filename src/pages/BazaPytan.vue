@@ -68,7 +68,7 @@ watch(selectedCategory, () => {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/data/questions_by_category.json')
+    const res = await fetch('/questions_by_category.json')
     questionsByCategory.value = await res.json()
     // Set default category to the first one
     selectedCategory.value = Object.keys(questionsByCategory.value)[0] || ''

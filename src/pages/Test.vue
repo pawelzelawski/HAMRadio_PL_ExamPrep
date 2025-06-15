@@ -97,7 +97,7 @@ function shuffle(arr) {
 
 async function loadQuiz() {
   loading.value = true
-  const res = await fetch('/data/questions_by_category.json')
+  const res = await fetch('/questions_by_category.json')
   const byCat = await res.json()
   let all = []
   let id = 0

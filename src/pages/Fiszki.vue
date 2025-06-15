@@ -115,7 +115,7 @@ watch([selectedCategory, showOnlyUnknown], resetIndex)
 
 onMounted(async () => {
   try {
-    const res = await fetch('/data/questions_by_category.json')
+    const res = await fetch('/questions_by_category.json')
     questionsByCategory.value = await res.json()
     selectedCategory.value = Object.keys(questionsByCategory.value)[0] || ''
     // Load knownMap from localStorage

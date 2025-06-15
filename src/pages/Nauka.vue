@@ -283,4 +283,16 @@ tbody tr:hover {
   background-color: rgb(219 234 254 / var(--tw-bg-opacity)); /* Tailwind blue-50 */
   transition: background 0.2s;
 }
+tbody tr:hover, tbody tr:active, tbody tr:focus {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 41 59 / var(--tw-bg-opacity)); /* Tailwind slate-800 */
+  color: #fff;
+  transition: background 0.2s, color 0.2s;
+}
+@media (prefers-color-scheme: dark) {
+  tbody tr:hover, tbody tr:active, tbody tr:focus {
+    background-color: rgb(30 41 59 / var(--tw-bg-opacity)); /* slate-800 */
+    color: #fff;
+  }
+}
 </style>
